@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/myScenes/GameScenes/GameSceneEvening1.unity
+    guid: 8c669ed3ccb94164db584d200ff47a10
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/myScenes/GameScenes/MainGameScene.unity
+    guid: 38a96144f3061dc42b68e522c3ae1de5
+  - enabled: 1
+    path: Assets/myScenes/GameScenes/MainMenuNew.unity
+    guid: 3646c58cd0c44e4438dacf6cb4cec2bc
+  - enabled: 1
+    path: Assets/myScenes/DeveloperScene.unity
+    guid: 130745ff042dede4b87f2ba703c7a167
+  - enabled: 1
+    path: Assets/myScenes/GameScenes/MainMenu.unity
+    guid: 70a2a213b0587f84bbdac3a4f06c0dbb
+  - enabled: 1
+    path: Assets/myScenes/GameScenes/Nightmare.unity
+    guid: 8a0594d17c967af48b0c2c4edd9aa3a7
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
