@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b026568d24a71fc4baff938a19c0ce86, type: 3}
+  m_Name: Inventory
+  m_EditorClassIdentifier: 
+  savePath: /Inventory.Save
+  itemDatabase: {fileID: 11400000, guid: 1fcfb78bee54fc542b13535d681610c4, type: 2}
+  inventory:
+    inventoryItemSlots:
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    - ID: 0
+      item:
+        name: 
+        ID: 0
+        itemObj: {fileID: 0}
+      amount: 0
+      isFull: 0
+    leftHandItem:
+      name: 
+      ID: 0
+      itemObj: {fileID: 0}
+    rightHandItem:
+      name: 
+      ID: 0
+      itemObj: {fileID: 0}
+  toEquipItemObject: {fileID: 0}
+  swapSound: {fileID: 0}
+  equipSound: {fileID: 0}
+  hiddenUIScale: {x: 0, y: 0, z: 0}
+  visibleUIScale: {x: 7, y: 7, z: 7}
+  removeStackSound: {fileID: 0}
+  displaySound: {fileID: 8300000, guid: 1a2882a7bf3a9b449847c8f37086f5ca, type: 3}
+  hideSound: {fileID: 8300000, guid: a8331715989905043ba99baf365b272e, type: 3}

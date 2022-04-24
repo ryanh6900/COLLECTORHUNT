@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7817149429811204339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7817149429811204337}
+  - component: {fileID: 7817149429811204338}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7817149429811204337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7817149429811204339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 495.85782, y: 268, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7817149429811204338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7817149429811204339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d3ae01a68bb0a488a5adb3b51e6dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exploreScene: DeveloperScene
+  mainMenuScene: MainMenuNew
+  noSavedGameDialog: {fileID: 0}
+  confirmationPrompt: {fileID: 0}
+  volumeTextValue: {fileID: 0}
+  volumeSlider: {fileID: 0}
+  defaultVolume: 1
+  mouseXSenSlider: {fileID: 0}
+  mouseXSensValue: {fileID: 0}
+  mouseYSensSlider: {fileID: 0}
+  mouseYSensValue: {fileID: 0}
+  defaultSensX: 4
+  defaultSensY: 4
+  mainMouseSensX: 4
+  mainMouseSensY: 4
+  invertYToggle: {fileID: 0}
+  brightnessSlider: {fileID: 0}
+  brightnessTextVal: {fileID: 0}
+  defaultBrightness: 1
+  qualityDropdown: {fileID: 0}
+  fullScreenToggle: {fileID: 0}
+  resolutionDropdown: {fileID: 0}
+  gameIsPaused: 0

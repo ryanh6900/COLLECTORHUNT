@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06686c7a38061e34f9442a969c92f65e, type: 3}
+  m_Name: Bushes
+  m_EditorClassIdentifier: 
+  footstepSounds:
+  - {fileID: 8300000, guid: 50ad27f2e46a7074e9864dbad1e7eade, type: 3}
+  - {fileID: 8300000, guid: c758d50866c38364395e6497487c1af3, type: 3}
+  - {fileID: 8300000, guid: 88836c252240bf148b51f31eaa40423b, type: 3}
+  - {fileID: 8300000, guid: 7b0242fe2eb831e4cbf3bada890a9dcd, type: 3}
+  - {fileID: 8300000, guid: 5110f81119d96ea47b2e9a45875c1156, type: 3}
+  - {fileID: 8300000, guid: 2ee7a4274d261bf43bb411f2eae2561c, type: 3}
+  jumpSound: {fileID: 8300000, guid: 2642ca70ae8c186489090a89cce4e395, type: 3}
+  landSound: {fileID: 8300000, guid: 09226248e570c904a900ec2ecb767a68, type: 3}
+  crouchSound: {fileID: 8300000, guid: caceea3cf407e1b47a4024a755887675, type: 3}
