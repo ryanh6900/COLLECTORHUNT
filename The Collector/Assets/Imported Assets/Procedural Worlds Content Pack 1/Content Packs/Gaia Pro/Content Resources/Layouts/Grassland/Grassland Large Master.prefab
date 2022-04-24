@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &376127047056300503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3760968758116372429}
+  - component: {fileID: 8146299988346416378}
+  - component: {fileID: 1624045548248842729}
+  - component: {fileID: 4258706845071633410}
+  m_Layer: 0
+  m_Name: Grassland Large Master
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3760968758116372429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376127047056300503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6351049783171343096}
+  - {fileID: 5865214090444071861}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8146299988346416378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376127047056300503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff7ef34b896fd85458072163178cb656, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1624045548248842729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376127047056300503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44652d333be34355a2169351b5b6bdf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_children:
+  - transform: {fileID: 6351049783171343096}
+    weight: 1
+  - transform: {fileID: 5865214090444071861}
+    weight: 1
+--- !u!114 &4258706845071633410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376127047056300503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a133bf4f57166459cdc0e7dd1ba8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_layerMask: 11
+  m_tagIndex: 0
+  m_tags:
+  - Current
+  - Untagged
+  - Respawn
+  - Finish
+  - EditorOnly
+  - MainCamera
+  - Player
+  - GameController
+  - PW - Nature
+  - Synty Tree
+  - PW - Prop
+  m_applyToChildern: 1
+--- !u!1001 &3843082496778401846
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3760968758116372429}
+    m_Modifications:
+    - target: {fileID: 3672028591135057962, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_Name
+      value: Grassland Large 01 (Sub Spawner)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b48d9d536d1ab144bf11701c90628ea, type: 3}
+--- !u!4 &6351049783171343096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7887536927597959886, guid: 9b48d9d536d1ab144bf11701c90628ea,
+    type: 3}
+  m_PrefabInstance: {fileID: 3843082496778401846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5231178362898366697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3760968758116372429}
+    m_Modifications:
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4591522887384154399, guid: 7dbaa37866767af42a3d394e362b0aa4,
+        type: 3}
+      propertyPath: m_Name
+      value: Grassland Large 02 (Sub Spawner)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7dbaa37866767af42a3d394e362b0aa4, type: 3}
+--- !u!4 &5865214090444071861 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1872807100225987420, guid: 7dbaa37866767af42a3d394e362b0aa4,
+    type: 3}
+  m_PrefabInstance: {fileID: 5231178362898366697}
+  m_PrefabAsset: {fileID: 0}

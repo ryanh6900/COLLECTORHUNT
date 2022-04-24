@@ -1,0 +1,2049 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c477de684ee10c4082f9fddf19a75ce, type: 3}
+  m_Name: GaiaProPalette
+  m_EditorClassIdentifier: 
+  m_paletteEntryIDCount: -2147483042
+  m_paletteEntries:
+  - m_name: pwub_builtin_1_c4
+    m_id: -2147483646
+    m_guid: 6144e4fa6abf45e47a0e25c89e041520
+    m_object: {fileID: 2800000, guid: 8562e5af4cc78dd488059285d0c642d1, type: 3}
+  - m_name: pwub_builtin_2_c4
+    m_id: -2147483645
+    m_guid: 770a6f924e7a18048926af895e9c2462
+    m_object: {fileID: 2800000, guid: f77fc97af49c16c4cb3927a1d0462e79, type: 3}
+  - m_name: pwub_builtin_3_c4
+    m_id: -2147483644
+    m_guid: 0b46ea345e1103d45af8bd1faeae6f99
+    m_object: {fileID: 2800000, guid: 9cd761b0a0aa72648a348e5ebfd6e86b, type: 3}
+  - m_name: pwub_builtin_4_c4
+    m_id: -2147483643
+    m_guid: 558b31e916ac28e4dba496aa68a921a8
+    m_object: {fileID: 2800000, guid: 3d320e63902a22c4a936a386d3b82942, type: 3}
+  - m_name: pwub_builtin_5_c4
+    m_id: -2147483642
+    m_guid: 78ddd658e1e59494192ac0287c59cff1
+    m_object: {fileID: 2800000, guid: d655b3415e9b4a349bdfff62e290f6a0, type: 3}
+  - m_name: pwub_builtin_6_c4
+    m_id: -2147483641
+    m_guid: 4c1b8bc23d293594f8a4c8f55cfcb374
+    m_object: {fileID: 2800000, guid: 86ce52cdd27d0214786d1ffd6923fff6, type: 3}
+  - m_name: pwub_builtin_7_c4
+    m_id: -2147483640
+    m_guid: 54b8e4a4ed569594fb452569c1082aa2
+    m_object: {fileID: 2800000, guid: 9236ebf756af8954193c9c44e05ba09e, type: 3}
+  - m_name: pwub_builtin_8_c4
+    m_id: -2147483639
+    m_guid: 7d9d89548a732fc43a8261e60423a5a1
+    m_object: {fileID: 2800000, guid: a913d21bd6330f64bae5eb7e5fbd830b, type: 3}
+  - m_name: pwub_builtin_9_c4
+    m_id: -2147483638
+    m_guid: ef846195897836548a0b41e3e67cc4c4
+    m_object: {fileID: 2800000, guid: 7fd839b086d4a844d83cbe9490683855, type: 3}
+  - m_name: pwub_builtin_10_c4
+    m_id: -2147483637
+    m_guid: a755b8ffd2e13984b8576a7097a3afc9
+    m_object: {fileID: 2800000, guid: 9fd32fab18db93d4bab18a1fb6923819, type: 3}
+  - m_name: pwub_builtin_11_c4
+    m_id: -2147483636
+    m_guid: a3366d98f9576ae4885f7547a6e71e00
+    m_object: {fileID: 2800000, guid: 05c00cf657919e346bebf9e153c56e66, type: 3}
+  - m_name: pwub_builtin_12_c4
+    m_id: -2147483635
+    m_guid: 83447bb85a3bc19448b818a87c999ee2
+    m_object: {fileID: 2800000, guid: 2fbda824cdc093e4c9951a5f273f6554, type: 3}
+  - m_name: pwub_builtin_13_c4
+    m_id: -2147483634
+    m_guid: 4b0df7bf64d3810499ca07af112e6633
+    m_object: {fileID: 2800000, guid: 27e1a0b4841c0b34eb51ed3e21e50691, type: 3}
+  - m_name: pwub_builtin_14_c4
+    m_id: -2147483633
+    m_guid: 19e70cad51cc06145a5191bd42f4fda1
+    m_object: {fileID: 2800000, guid: 4a374978ee6c9ab46a39372d609f7e1e, type: 3}
+  - m_name: pwub_builtin_15_c4
+    m_id: -2147483632
+    m_guid: 4c66d5c4fcbc1254bb69717cdeff7fe5
+    m_object: {fileID: 2800000, guid: 128216f3a20cb73458440e12e657db4b, type: 3}
+  - m_name: pwub_builtin_16_c4
+    m_id: -2147483631
+    m_guid: dde3b700e69b83141a1c40b58b6f0eb8
+    m_object: {fileID: 2800000, guid: 410d50fd32c308c46a95f502d3c7c2ff, type: 3}
+  - m_name: pwub_builtin_17_c4
+    m_id: -2147483630
+    m_guid: 31b40143d7b51e14abbdeecaa40ef6fb
+    m_object: {fileID: 2800000, guid: cc056045a1782ac4a8c08bdce66d49ed, type: 3}
+  - m_name: pwub_builtin_18_c4
+    m_id: -2147483629
+    m_guid: 7e9442242b78f9b45b65003041675690
+    m_object: {fileID: 2800000, guid: b04e2e83ee1283545a02e1bab08989ba, type: 3}
+  - m_name: pwub_builtin_19_c4
+    m_id: -2147483628
+    m_guid: 4289489bd7b48514294474fe2bfac7a6
+    m_object: {fileID: 2800000, guid: e24fd533463218644ae0bb81977c5e99, type: 3}
+  - m_name: pwub_builtin_20_c4
+    m_id: -2147483627
+    m_guid: 79873ab2a42cb0740884092a5342d5d9
+    m_object: {fileID: 2800000, guid: 738922d98c7b6f242bcd7f511badbef5, type: 3}
+  - m_name: Square 01_Terrain_Mask
+    m_id: -2147483626
+    m_guid: 15a68bd6d12f24f48a9c03d395219b1e
+    m_object: {fileID: 2800000, guid: 15a68bd6d12f24f48a9c03d395219b1e, type: 3}
+  - m_name: Square 02_Terrain_Mask
+    m_id: -2147483625
+    m_guid: ddc8190dd44c471488513958612a2546
+    m_object: {fileID: 2800000, guid: ddc8190dd44c471488513958612a2546, type: 3}
+  - m_name: Square 03_Terrain_Mask
+    m_id: -2147483624
+    m_guid: c124cffdc593cac468238c001baed6f0
+    m_object: {fileID: 2800000, guid: c124cffdc593cac468238c001baed6f0, type: 3}
+  - m_name: Square 04_Terrain_Mask
+    m_id: -2147483623
+    m_guid: 3e16f5bbd1aac754c9be4311670091af
+    m_object: {fileID: 2800000, guid: 3e16f5bbd1aac754c9be4311670091af, type: 3}
+  - m_name: Spawner - Gaia Pro Fence Spawner Roads
+    m_id: -2147483445
+    m_guid: 4639a64f143a72a4ba5e5623c1bf91b5
+    m_object: {fileID: 6949222662559108540, guid: 4639a64f143a72a4ba5e5623c1bf91b5,
+      type: 3}
+  - m_name: GeNa fi_vil_GaiaFenseFull
+    m_id: -2147483444
+    m_guid: 158003e47d120cc4fb52ebf336817b05
+    m_object: {fileID: 9079756674728096200, guid: 158003e47d120cc4fb52ebf336817b05,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Fence Spawner
+    m_id: -2147483443
+    m_guid: 2dfb5addeaee6c946b0904a9b542ae45
+    m_object: {fileID: 6949222662559108540, guid: 2dfb5addeaee6c946b0904a9b542ae45,
+      type: 3}
+  - m_name: Spawner - Forest Large 01
+    m_id: -2147483442
+    m_guid: ab67db85a9e8dc64db313eecb907d9c9
+    m_object: {fileID: 7006580631691480096, guid: ab67db85a9e8dc64db313eecb907d9c9,
+      type: 3}
+  - m_name: PW_Tree_Dead_05
+    m_id: -2147483441
+    m_guid: 1d61760017c5cc24797605b6bda04c32
+    m_object: {fileID: 7440958064129538928, guid: 1d61760017c5cc24797605b6bda04c32,
+      type: 3}
+  - m_name: PW_Tree_Stump_03
+    m_id: -2147483440
+    m_guid: 3212fc94a2d38204d94c8406d3582fbf
+    m_object: {fileID: 6510997350315865958, guid: 3212fc94a2d38204d94c8406d3582fbf,
+      type: 3}
+  - m_name: PW_Tree_Log_01_01
+    m_id: -2147483439
+    m_guid: b6b427d6336c57942859bb577b0f2cb2
+    m_object: {fileID: 7662368191403676667, guid: b6b427d6336c57942859bb577b0f2cb2,
+      type: 3}
+  - m_name: PW_Stone_01
+    m_id: -2147483438
+    m_guid: 35348ac853f10584a9e52b978af197f9
+    m_object: {fileID: 3242204568188846338, guid: 35348ac853f10584a9e52b978af197f9,
+      type: 3}
+  - m_name: PW_Tree_Dead_03_Fallen
+    m_id: -2147483437
+    m_guid: 590108cb2be2b74448b0a64a7755a8de
+    m_object: {fileID: 8087235739683421648, guid: 590108cb2be2b74448b0a64a7755a8de,
+      type: 3}
+  - m_name: PW_Tree_Stump_02
+    m_id: -2147483436
+    m_guid: 7bab64068a1a0bb45958ca85fe27c7a8
+    m_object: {fileID: 3263238312297119654, guid: 7bab64068a1a0bb45958ca85fe27c7a8,
+      type: 3}
+  - m_name: PW_Stone_02_01_01 + Trunk Layout_01_02
+    m_id: -2147483435
+    m_guid: fd4b95f358279cb4186af19df34cd781
+    m_object: {fileID: 7944491279301227243, guid: fd4b95f358279cb4186af19df34cd781,
+      type: 3}
+  - m_name: PW_Stone_01_01_01 + Trunk Layout_01_01
+    m_id: -2147483434
+    m_guid: 018744760a5751844a1c5598e9f3834b
+    m_object: {fileID: 389122838365257840, guid: 018744760a5751844a1c5598e9f3834b,
+      type: 3}
+  - m_name: PW_Tree_Pine_01_Long
+    m_id: -2147483433
+    m_guid: 2ecb4b22618ef6545af524e4fc6e24e1
+    m_object: {fileID: 1490523839772519690, guid: 2ecb4b22618ef6545af524e4fc6e24e1,
+      type: 3}
+  - m_name: PW_Tree_Dead_03
+    m_id: -2147483432
+    m_guid: 1f3c3557da78589429dabdac221802bf
+    m_object: {fileID: 6445112374126249560, guid: 1f3c3557da78589429dabdac221802bf,
+      type: 3}
+  - m_name: PW_Stone_02
+    m_id: -2147483431
+    m_guid: 4eb6c3c55d1939d4387b3e98abe7f058
+    m_object: {fileID: 5007570772090632443, guid: 4eb6c3c55d1939d4387b3e98abe7f058,
+      type: 3}
+  - m_name: PW_Stone_01_01_01 + Trunk Layout_02
+    m_id: -2147483430
+    m_guid: 0fe926e7dd9c6434bbebaf406397e4ad
+    m_object: {fileID: 4613703798815553737, guid: 0fe926e7dd9c6434bbebaf406397e4ad,
+      type: 3}
+  - m_name: PW_Tree_Spruce_05
+    m_id: -2147483429
+    m_guid: 7a69b0670b5c0e149863a33410944c9a
+    m_object: {fileID: 3971247770807929274, guid: 7a69b0670b5c0e149863a33410944c9a,
+      type: 3}
+  - m_name: PW_Tree_Dead_02
+    m_id: -2147483428
+    m_guid: 2f62588bd219bbb4fbdeaa968193b4e0
+    m_object: {fileID: 1482127389088731988, guid: 2f62588bd219bbb4fbdeaa968193b4e0,
+      type: 3}
+  - m_name: PW_Stone_01_01_01 + Trunk Layout_03
+    m_id: -2147483427
+    m_guid: 578952d90a568f44aa9e518ed9c512ba
+    m_object: {fileID: 6499598038516465756, guid: 578952d90a568f44aa9e518ed9c512ba,
+      type: 3}
+  - m_name: PW_Tree_Spruce_06
+    m_id: -2147483426
+    m_guid: a4cb8c2a723ad6c4998e2c6a4ace99ca
+    m_object: {fileID: 6847023277904564872, guid: a4cb8c2a723ad6c4998e2c6a4ace99ca,
+      type: 3}
+  - m_name: PW_Stone_01_01_01 + Trunk Layout_04
+    m_id: -2147483425
+    m_guid: 532ca70b96b6973498cfdc463d646f91
+    m_object: {fileID: 8897060967580100266, guid: 532ca70b96b6973498cfdc463d646f91,
+      type: 3}
+  - m_name: PW_Stone_01_01_01 + Trunk Layout_05
+    m_id: -2147483424
+    m_guid: 513c27d3db50729408239c4c0c155183
+    m_object: {fileID: 4162134413941800455, guid: 513c27d3db50729408239c4c0c155183,
+      type: 3}
+  - m_name: PW_Tree_Stump_01
+    m_id: -2147483423
+    m_guid: 05a9865a1a4eaa04b93b31a330a6724c
+    m_object: {fileID: 2218003813693277364, guid: 05a9865a1a4eaa04b93b31a330a6724c,
+      type: 3}
+  - m_name: PW_Tree_Small_02
+    m_id: -2147483422
+    m_guid: 5c9a2885c7c9875499df798ba88f40ca
+    m_object: {fileID: 3403012897276277082, guid: 5c9a2885c7c9875499df798ba88f40ca,
+      type: 3}
+  - m_name: PW_Tree_Small_01
+    m_id: -2147483421
+    m_guid: 5c3e2e2b86255524181ad3ee5982cc65
+    m_object: {fileID: 4241361742752720050, guid: 5c3e2e2b86255524181ad3ee5982cc65,
+      type: 3}
+  - m_name: PW_Tree_Sequoia_02
+    m_id: -2147483420
+    m_guid: f8783d0d4b154c24aab3f8f3f4ca2d3f
+    m_object: {fileID: 3907657317906885401, guid: f8783d0d4b154c24aab3f8f3f4ca2d3f,
+      type: 3}
+  - m_name: PW_Tree_Sequoia_01
+    m_id: -2147483419
+    m_guid: 1e2f6dd72897bec489ebfe35226bbaf7
+    m_object: {fileID: 5244156249065330910, guid: 1e2f6dd72897bec489ebfe35226bbaf7,
+      type: 3}
+  - m_name: Spawner - Forest Large 02
+    m_id: -2147483418
+    m_guid: 5c4608f987bf91347aee4fedb141c21d
+    m_object: {fileID: 6187958083210389098, guid: 5c4608f987bf91347aee4fedb141c21d,
+      type: 3}
+  - m_name: PW_Stone_Granite_03_01_01 + Trunk Layout_07
+    m_id: -2147483417
+    m_guid: 950b18788c8ee3a4db5957316e95f43e
+    m_object: {fileID: 545707403796120298, guid: 950b18788c8ee3a4db5957316e95f43e,
+      type: 3}
+  - m_name: Spawner - Forest Large Master
+    m_id: -2147483416
+    m_guid: 890cd51d061f7e344b80617ea64a86a6
+    m_object: {fileID: 8608937989584450232, guid: 890cd51d061f7e344b80617ea64a86a6,
+      type: 3}
+  - m_name: Forest Large 01 (Sub Spawner)
+    m_id: -2147483415
+    m_guid: fcc8570abcf08514ca9d642063635d43
+    m_object: {fileID: 2414093684873698985, guid: fcc8570abcf08514ca9d642063635d43,
+      type: 3}
+  - m_name: Forest Large 02 (Sub Spawner)
+    m_id: -2147483414
+    m_guid: 37eff250e19e52643be7498bf049d7ed
+    m_object: {fileID: 2295849009490716019, guid: 37eff250e19e52643be7498bf049d7ed,
+      type: 3}
+  - m_name: Spawner - Forest Layout Master
+    m_id: -2147483413
+    m_guid: 7ea071a958cd1264e932c5d14fbe3508
+    m_object: {fileID: 3590132915823843060, guid: 7ea071a958cd1264e932c5d14fbe3508,
+      type: 3}
+  - m_name: Forest Layout_01 (Sub Spawner)
+    m_id: -2147483412
+    m_guid: aa67614f1599963409a970f54c2f9bf8
+    m_object: {fileID: 3808226913781594409, guid: aa67614f1599963409a970f54c2f9bf8,
+      type: 3}
+  - m_name: Spawner - Forest Layout_01
+    m_id: -2147483411
+    m_guid: 44f1371e205e386418206475dd36657b
+    m_object: {fileID: 7094393636751492553, guid: 44f1371e205e386418206475dd36657b,
+      type: 3}
+  - m_name: Forest Layout_02 (Sub Spawner)
+    m_id: -2147483410
+    m_guid: b11ece1929a0a4946aaf63eda52f570d
+    m_object: {fileID: 8200919848141493083, guid: b11ece1929a0a4946aaf63eda52f570d,
+      type: 3}
+  - m_name: Spawner - Forest Layout_02
+    m_id: -2147483409
+    m_guid: 51302f47418a6864ebf4fd41e74ceca3
+    m_object: {fileID: 4889082682658513658, guid: 51302f47418a6864ebf4fd41e74ceca3,
+      type: 3}
+  - m_name: Forest Layout_03 (Sub Spawner)
+    m_id: -2147483408
+    m_guid: e31a20762857da948bc1e3a3e4a9f902
+    m_object: {fileID: 1621512713297084010, guid: e31a20762857da948bc1e3a3e4a9f902,
+      type: 3}
+  - m_name: Spawner - Forest Layout_03
+    m_id: -2147483407
+    m_guid: ece125e56e2ac3849bd785fe1d9148e7
+    m_object: {fileID: 1852873497270954978, guid: ece125e56e2ac3849bd785fe1d9148e7,
+      type: 3}
+  - m_name: Forest Layout_04 (Sub Spawner)
+    m_id: -2147483406
+    m_guid: cf0736c5cdb2e174c978b03e5957e593
+    m_object: {fileID: 850372215729430511, guid: cf0736c5cdb2e174c978b03e5957e593,
+      type: 3}
+  - m_name: Spawner - Forest Layout_04
+    m_id: -2147483405
+    m_guid: 6710fbd9364487f41a9bd07eeabba1f2
+    m_object: {fileID: 5527260543477514680, guid: 6710fbd9364487f41a9bd07eeabba1f2,
+      type: 3}
+  - m_name: Forest Layout_05 (Sub Spawner)
+    m_id: -2147483404
+    m_guid: b3f8a0dfdb3dd7d48b1e3c317b100a5d
+    m_object: {fileID: 8030146467217110686, guid: b3f8a0dfdb3dd7d48b1e3c317b100a5d,
+      type: 3}
+  - m_name: Spawner - Forest Layout_05
+    m_id: -2147483403
+    m_guid: e9170e571c35f1546b4cb6ad55c43639
+    m_object: {fileID: 6337769703249205474, guid: e9170e571c35f1546b4cb6ad55c43639,
+      type: 3}
+  - m_name: Forest Layout_06 (Sub Spawner)
+    m_id: -2147483402
+    m_guid: 5fc989a4c7a4d7f47a636058fbf0a470
+    m_object: {fileID: 3460932710635333701, guid: 5fc989a4c7a4d7f47a636058fbf0a470,
+      type: 3}
+  - m_name: Forest Layout_07 (Sub Spawner)
+    m_id: -2147483401
+    m_guid: 0a88dd970cf92994588d21cee464fb73
+    m_object: {fileID: 7328951429850818601, guid: 0a88dd970cf92994588d21cee464fb73,
+      type: 3}
+  - m_name: Spawner - Forest Layout_07
+    m_id: -2147483400
+    m_guid: ea6c9df614e5b2a408644e65e6159b4d
+    m_object: {fileID: 5822962939440180876, guid: ea6c9df614e5b2a408644e65e6159b4d,
+      type: 3}
+  - m_name: Spawner - Forest Layout_06
+    m_id: -2147483399
+    m_guid: c683e12ec5ff47644bb855fb3386581f
+    m_object: {fileID: 4158877539997772475, guid: c683e12ec5ff47644bb855fb3386581f,
+      type: 3}
+  - m_name: Spawner - Grassland Large 01
+    m_id: -2147483398
+    m_guid: 2b1f4a4ef9ac3db478096a817500787a
+    m_object: {fileID: 3546347748791645145, guid: 2b1f4a4ef9ac3db478096a817500787a,
+      type: 3}
+  - m_name: Spawner - Grassland Large 02
+    m_id: -2147483397
+    m_guid: b8965c83b47cf404fa7bb2ea69a17538
+    m_object: {fileID: 4383120663192076232, guid: b8965c83b47cf404fa7bb2ea69a17538,
+      type: 3}
+  - m_name: Spawner - Grassland Large Master
+    m_id: -2147483396
+    m_guid: 0078899a25212784f8b50ae32e9dc127
+    m_object: {fileID: 8535669488551806627, guid: 0078899a25212784f8b50ae32e9dc127,
+      type: 3}
+  - m_name: Grassland Large 01 (Sub Spawner)
+    m_id: -2147483395
+    m_guid: 9b48d9d536d1ab144bf11701c90628ea
+    m_object: {fileID: 3672028591135057962, guid: 9b48d9d536d1ab144bf11701c90628ea,
+      type: 3}
+  - m_name: Grassland Large 02 (Sub Spawner)
+    m_id: -2147483394
+    m_guid: 7dbaa37866767af42a3d394e362b0aa4
+    m_object: {fileID: 4591522887384154399, guid: 7dbaa37866767af42a3d394e362b0aa4,
+      type: 3}
+  - m_name: Spawner - Grassland Layout 01
+    m_id: -2147483393
+    m_guid: 272387c160f34a243a1b583cf158100e
+    m_object: {fileID: 5051399847841947742, guid: 272387c160f34a243a1b583cf158100e,
+      type: 3}
+  - m_name: Spawner - Grassland Layout 02
+    m_id: -2147483392
+    m_guid: afd352cc9db1b674fbfa7b196fc1deb9
+    m_object: {fileID: 4634547877953740426, guid: afd352cc9db1b674fbfa7b196fc1deb9,
+      type: 3}
+  - m_name: Spawner - Grassland Layout 03
+    m_id: -2147483391
+    m_guid: f1f795baeaf80a14cbabb5d271ee3ad7
+    m_object: {fileID: 7600542770890980806, guid: f1f795baeaf80a14cbabb5d271ee3ad7,
+      type: 3}
+  - m_name: Spawner - Grassland Layout Master
+    m_id: -2147483390
+    m_guid: 0f60c51d2a3c44e438c91b6f5506eb1c
+    m_object: {fileID: 4049895750855603645, guid: 0f60c51d2a3c44e438c91b6f5506eb1c,
+      type: 3}
+  - m_name: Grassland Layout 01 (Sub Spawner)
+    m_id: -2147483389
+    m_guid: fd54d3b85a65229459d104dd3f122952
+    m_object: {fileID: 6096571803358552050, guid: fd54d3b85a65229459d104dd3f122952,
+      type: 3}
+  - m_name: Grassland Layout 02 (Sub Spawner)
+    m_id: -2147483388
+    m_guid: 927e7af62778eeb4ebc1ed9fb4ea8e3d
+    m_object: {fileID: 3155297340842492203, guid: 927e7af62778eeb4ebc1ed9fb4ea8e3d,
+      type: 3}
+  - m_name: Grassland Layout 03 (Sub Spawner)
+    m_id: -2147483387
+    m_guid: d63cf027c34bece46ab1fc6fbd09d68c
+    m_object: {fileID: 2814040354187079169, guid: d63cf027c34bece46ab1fc6fbd09d68c,
+      type: 3}
+  - m_name: Spawner - Grassland Small 01
+    m_id: -2147483386
+    m_guid: 76bf6a6259a6431479670af3e15f5b94
+    m_object: {fileID: 4306028158261234464, guid: 76bf6a6259a6431479670af3e15f5b94,
+      type: 3}
+  - m_name: Spawner - Grassland Small 02
+    m_id: -2147483385
+    m_guid: 0cfb04d828b1cb7489bd35663cfe6f3d
+    m_object: {fileID: 1598855844794086191, guid: 0cfb04d828b1cb7489bd35663cfe6f3d,
+      type: 3}
+  - m_name: Spawner - Grassland Small Master
+    m_id: -2147483384
+    m_guid: f2b012dad4fd8984bae4cac688ad55b2
+    m_object: {fileID: 4722070635768491604, guid: f2b012dad4fd8984bae4cac688ad55b2,
+      type: 3}
+  - m_name: Grassland Small 01 (Sub Spawner)
+    m_id: -2147483383
+    m_guid: 9a590abf72b77a045af9c9a2a670c91c
+    m_object: {fileID: 4001395031633376633, guid: 9a590abf72b77a045af9c9a2a670c91c,
+      type: 3}
+  - m_name: Grassland Small 02 (Sub Spawner)
+    m_id: -2147483382
+    m_guid: 6b4f7592ea65d96428a76b27255e87b3
+    m_object: {fileID: 6085547992672901283, guid: 6b4f7592ea65d96428a76b27255e87b3,
+      type: 3}
+  - m_name: Spawner - Big Farm 1
+    m_id: -2147483381
+    m_guid: c7c9becd363a4a84bbb992df49c1e909
+    m_object: {fileID: 4864662921469801966, guid: c7c9becd363a4a84bbb992df49c1e909,
+      type: 3}
+  - m_name: SM_POLYGON_Bld_Village_01_B
+    m_id: -2147483380
+    m_guid: dde0423b374c74546a82319f49277805
+    m_object: {fileID: 1318368868067454, guid: dde0423b374c74546a82319f49277805, type: 3}
+  - m_name: SM_POLYGON_Bld_House_01_A
+    m_id: -2147483379
+    m_guid: 3d90a5c2552ee874dba15f9f5481bc75
+    m_object: {fileID: 1073559470994180, guid: 3d90a5c2552ee874dba15f9f5481bc75, type: 3}
+  - m_name: SM_POLYGON_Fence_01_A
+    m_id: -2147483378
+    m_guid: 082ada77a76e4ff45a48fb6c36d12fe7
+    m_object: {fileID: 1176577660436094, guid: 082ada77a76e4ff45a48fb6c36d12fe7, type: 3}
+  - m_name: SM_POLYGON_Rock_01_A
+    m_id: -2147483377
+    m_guid: f0521b273ecff9940ba77cdf31af266a
+    m_object: {fileID: 1943419550838682, guid: f0521b273ecff9940ba77cdf31af266a, type: 3}
+  - m_name: SM_POLYGON_Rock_02_A
+    m_id: -2147483376
+    m_guid: f3a9f146b33971b43b5ca1f5f99d3851
+    m_object: {fileID: 1407068297017478, guid: f3a9f146b33971b43b5ca1f5f99d3851, type: 3}
+  - m_name: Spawner - Farm Master Layout
+    m_id: -2147483375
+    m_guid: d0f8d4f2ae807554c9acb04bc0b36e6b
+    m_object: {fileID: 1115526698816616984, guid: d0f8d4f2ae807554c9acb04bc0b36e6b,
+      type: 3}
+  - m_name: SM_POLYGON_Rocks_01_A
+    m_id: -2147483374
+    m_guid: 4b4b51efa6725d54d91ce3d5c7e76e97
+    m_object: {fileID: 1976893656296964, guid: 4b4b51efa6725d54d91ce3d5c7e76e97, type: 3}
+  - m_name: SM_POLYGON_Tree_01_A
+    m_id: -2147483373
+    m_guid: 222494f3affe7bc40bd33d26f94c4cb8
+    m_object: {fileID: 1788332881381280, guid: 222494f3affe7bc40bd33d26f94c4cb8, type: 3}
+  - m_name: SM_POLYGON_Tree_02_A
+    m_id: -2147483372
+    m_guid: 8fc263f4ca2ab4643a566aa4ce8326f4
+    m_object: {fileID: 1972994494591360, guid: 8fc263f4ca2ab4643a566aa4ce8326f4, type: 3}
+  - m_name: SM_POLYGON_Tree_02_B
+    m_id: -2147483371
+    m_guid: a726ea7a89510a04c9941b3925f2b511
+    m_object: {fileID: 1972994494591360, guid: a726ea7a89510a04c9941b3925f2b511, type: 3}
+  - m_name: SM_POLYGON_Bld_House_01_B
+    m_id: -2147483370
+    m_guid: e7b5bad0a69db9b4d89fedf88e7832c3
+    m_object: {fileID: 1073559470994180, guid: e7b5bad0a69db9b4d89fedf88e7832c3, type: 3}
+  - m_name: SM_POLYGON_Bld_Village_01_A
+    m_id: -2147483369
+    m_guid: 960f0343f9792b34f8f9a0c74827f00b
+    m_object: {fileID: 1318368868067454, guid: 960f0343f9792b34f8f9a0c74827f00b, type: 3}
+  - m_name: SM_POLYGON_Tree_01_B
+    m_id: -2147483368
+    m_guid: 79c71d5ab6a3adf40a40f3d701414dee
+    m_object: {fileID: 1788332881381280, guid: 79c71d5ab6a3adf40a40f3d701414dee, type: 3}
+  - m_name: SM_POLYGON_Bush_01_A
+    m_id: -2147483367
+    m_guid: df8c1222d2faa934b9ff4b37ca53ab68
+    m_object: {fileID: 1151132986152806, guid: df8c1222d2faa934b9ff4b37ca53ab68, type: 3}
+  - m_name: SM_POLYGON_Bush_01_B
+    m_id: -2147483366
+    m_guid: 1c149b711d8b2bd4ebb634764b68c220
+    m_object: {fileID: 1151132986152806, guid: 1c149b711d8b2bd4ebb634764b68c220, type: 3}
+  - m_name: Spawner - Medium Farm 1
+    m_id: -2147483365
+    m_guid: 57306e8503fbb0f4090e3ddf3c69e3fd
+    m_object: {fileID: 6145472736352622290, guid: 57306e8503fbb0f4090e3ddf3c69e3fd,
+      type: 3}
+  - m_name: Spawner - Medium Farm 2
+    m_id: -2147483364
+    m_guid: 90ecee4d4d03d1e449f5954dca094e7d
+    m_object: {fileID: 5960027365373801412, guid: 90ecee4d4d03d1e449f5954dca094e7d,
+      type: 3}
+  - m_name: Spawner - Medium Farm 3
+    m_id: -2147483363
+    m_guid: df8460cdb79c71d4a8aba45fde3b52d7
+    m_object: {fileID: 4996333704123147885, guid: df8460cdb79c71d4a8aba45fde3b52d7,
+      type: 3}
+  - m_name: Spawner - Small Farm 1
+    m_id: -2147483362
+    m_guid: 69136d5565b83fd4faf58b25bce5c064
+    m_object: {fileID: 5217036181330244300, guid: 69136d5565b83fd4faf58b25bce5c064,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Fence Spawner
+    m_id: -2147483361
+    m_guid: 01a305af3406aa34eb09abe01104030f
+    m_object: {fileID: 7143626363542483024, guid: 01a305af3406aa34eb09abe01104030f,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Fence_01_A
+    m_id: -2147483360
+    m_guid: 677c7e6329d8c984caa72b5122de1327
+    m_object: {fileID: 4746604218418691133, guid: 677c7e6329d8c984caa72b5122de1327,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Rocks (Dense)
+    m_id: -2147483359
+    m_guid: bb75367d298729444995700c54269998
+    m_object: {fileID: 2243514974401049995, guid: bb75367d298729444995700c54269998,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Rock_01_A
+    m_id: -2147483358
+    m_guid: 0ec0eb0448e319047887f73c688286bc
+    m_object: {fileID: 8328639902932989543, guid: 0ec0eb0448e319047887f73c688286bc,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Rock_02_A
+    m_id: -2147483357
+    m_guid: 7ef5d289a7299844998f2c588eec9002
+    m_object: {fileID: 2577976359289398830, guid: 7ef5d289a7299844998f2c588eec9002,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Rocks_01_A
+    m_id: -2147483356
+    m_guid: b6eb89c15fd0947478748906ade4e4b6
+    m_object: {fileID: 3068441890864207296, guid: b6eb89c15fd0947478748906ade4e4b6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Rocks (Light)
+    m_id: -2147483355
+    m_guid: 3778af4d0ea9bb742a3e44cee0cfa082
+    m_object: {fileID: 4689674036439979410, guid: 3778af4d0ea9bb742a3e44cee0cfa082,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Rocks (Moderate)
+    m_id: -2147483354
+    m_guid: fc0900bfe1958d04ba36e3a59e19ca72
+    m_object: {fileID: 3362151479132705476, guid: fc0900bfe1958d04ba36e3a59e19ca72,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Plants (Dense)
+    m_id: -2147483353
+    m_guid: 5c63c0632823127469a71984b07878d8
+    m_object: {fileID: 5667766949426587478, guid: 5c63c0632823127469a71984b07878d8,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Plants (Light)
+    m_id: -2147483352
+    m_guid: 22c156b5e44939f4e9e61e9db416e6d6
+    m_object: {fileID: 1841744470087204292, guid: 22c156b5e44939f4e9e61e9db416e6d6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Plants (Moderate)
+    m_id: -2147483351
+    m_guid: 91936abb73e315c4c9cb699aa6e6932e
+    m_object: {fileID: 2812316340795096913, guid: 91936abb73e315c4c9cb699aa6e6932e,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Trees (Dense)
+    m_id: -2147483350
+    m_guid: 7440da74f2f6d62479eaf9be3d31a97b
+    m_object: {fileID: 7805548264176797303, guid: 7440da74f2f6d62479eaf9be3d31a97b,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Trees (Light)
+    m_id: -2147483349
+    m_guid: cdc4dccf2300cea4896db98911cf6782
+    m_object: {fileID: 1459777663875377272, guid: cdc4dccf2300cea4896db98911cf6782,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Low Poly Trees (Moderate)
+    m_id: -2147483348
+    m_guid: 511fce46eaaae584ead927f348a02ce4
+    m_object: {fileID: 6081025696665800104, guid: 511fce46eaaae584ead927f348a02ce4,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones (Dense)
+    m_id: -2147483347
+    m_guid: b037d3e24e0b1ee478a01811f3411786
+    m_object: {fileID: 7860869498625019827, guid: b037d3e24e0b1ee478a01811f3411786,
+      type: 3}
+  - m_name: GeNa PW_Stone_01
+    m_id: -2147483346
+    m_guid: 53a10c50d8d9097419c914fa7c45bffa
+    m_object: {fileID: 5636019596121454748, guid: 53a10c50d8d9097419c914fa7c45bffa,
+      type: 3}
+  - m_name: GeNa PW_Stone_02
+    m_id: -2147483345
+    m_guid: 81cc916bf8ec32b499792b966a203fd3
+    m_object: {fileID: 5025604638035655135, guid: 81cc916bf8ec32b499792b966a203fd3,
+      type: 3}
+  - m_name: GeNa PW_Stone_03
+    m_id: -2147483344
+    m_guid: dc0cae95c50c9a14284b9430b00f256f
+    m_object: {fileID: 5707920409633092220, guid: dc0cae95c50c9a14284b9430b00f256f,
+      type: 3}
+  - m_name: GeNa PW_Stone_04
+    m_id: -2147483343
+    m_guid: 853a4de10d5950c4a93e486931f99a1f
+    m_object: {fileID: 4866765795876784983, guid: 853a4de10d5950c4a93e486931f99a1f,
+      type: 3}
+  - m_name: GeNa PW_Stone_05
+    m_id: -2147483342
+    m_guid: 3cf34565f70eccd46bfc7dc1cddddb92
+    m_object: {fileID: 5605375460746495397, guid: 3cf34565f70eccd46bfc7dc1cddddb92,
+      type: 3}
+  - m_name: GeNa PW_Stone_06
+    m_id: -2147483341
+    m_guid: 299aece276001974eb4f70be76f70714
+    m_object: {fileID: 8720991054948537056, guid: 299aece276001974eb4f70be76f70714,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03
+    m_id: -2147483340
+    m_guid: 97967ef858a0d6d408062a5cd4dde412
+    m_object: {fileID: 3912301063796163475, guid: 97967ef858a0d6d408062a5cd4dde412,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_01
+    m_id: -2147483339
+    m_guid: 3bbd57954de876c47aa41294359df8e5
+    m_object: {fileID: 5989824288386502481, guid: 3bbd57954de876c47aa41294359df8e5,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones (Light)
+    m_id: -2147483338
+    m_guid: baa733e843b6c7f4388d6f67917e2e19
+    m_object: {fileID: 7902754401729957163, guid: baa733e843b6c7f4388d6f67917e2e19,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones (Moderate)
+    m_id: -2147483337
+    m_guid: cca86ad4a6ebf814aaed8620a88363b0
+    m_object: {fileID: 1267410519123268979, guid: cca86ad4a6ebf814aaed8620a88363b0,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Moss (Dense)
+    m_id: -2147483336
+    m_guid: 559ed2dceff5e5d49b9c774284699d2a
+    m_object: {fileID: 4479456305642172661, guid: 559ed2dceff5e5d49b9c774284699d2a,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_02_Moss
+    m_id: -2147483335
+    m_guid: d5cb794ee406513409383969a1e2d2db
+    m_object: {fileID: 6657204865862354186, guid: d5cb794ee406513409383969a1e2d2db,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_Moss
+    m_id: -2147483334
+    m_guid: a2e402fc4fc3d6d4d80c678d57ef9764
+    m_object: {fileID: 5388461561425181675, guid: a2e402fc4fc3d6d4d80c678d57ef9764,
+      type: 3}
+  - m_name: GeNa PW_Stone_02_Moss
+    m_id: -2147483333
+    m_guid: 163542d6c60d48a4f818ece8a6577751
+    m_object: {fileID: 6228620015559657429, guid: 163542d6c60d48a4f818ece8a6577751,
+      type: 3}
+  - m_name: GeNa PW_Stone_01_ Moss
+    m_id: -2147483332
+    m_guid: 930e3fa4b45c9c148aa5e0e3166ed453
+    m_object: {fileID: 224950302759669347, guid: 930e3fa4b45c9c148aa5e0e3166ed453,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Moss (Light)
+    m_id: -2147483331
+    m_guid: bc697734716b66944b0a49b34e80b2a4
+    m_object: {fileID: 8898740205851819510, guid: bc697734716b66944b0a49b34e80b2a4,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Moss (Moderate)
+    m_id: -2147483330
+    m_guid: d164fb7f678b4fd4087daa8fb63b7561
+    m_object: {fileID: 7826753003665746932, guid: d164fb7f678b4fd4087daa8fb63b7561,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Moss Physics (Dense)
+    m_id: -2147483329
+    m_guid: 688092e333c1a064d870ca29438636ac
+    m_object: {fileID: 5479242038610255994, guid: 688092e333c1a064d870ca29438636ac,
+      type: 3}
+  - m_name: GeNa PW_Stone_01_ Moss
+    m_id: -2147483328
+    m_guid: 25c78687896b3dd4981ef2e2b135b118
+    m_object: {fileID: 3633795498031382562, guid: 25c78687896b3dd4981ef2e2b135b118,
+      type: 3}
+  - m_name: GeNa PW_Stone_02_Moss
+    m_id: -2147483327
+    m_guid: df3dd0184ea80ed4eb9a730fa7b8fd27
+    m_object: {fileID: 3840907094490507784, guid: df3dd0184ea80ed4eb9a730fa7b8fd27,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_02_Moss
+    m_id: -2147483326
+    m_guid: 87942422279e3fe40922b9bf83220189
+    m_object: {fileID: 5776968761109974961, guid: 87942422279e3fe40922b9bf83220189,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_Moss
+    m_id: -2147483325
+    m_guid: 720e50b7b2db7974e963f14a5d0782f8
+    m_object: {fileID: 3109075132945338954, guid: 720e50b7b2db7974e963f14a5d0782f8,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Moss Physics (Light)
+    m_id: -2147483324
+    m_guid: 803ee5ff670dd374cbcb931363679ed5
+    m_object: {fileID: 2183024120233628578, guid: 803ee5ff670dd374cbcb931363679ed5,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Moss Physics (Moderate)
+    m_id: -2147483323
+    m_guid: 15659bd28ba2cf04987a2f3b9b805269
+    m_object: {fileID: 8399086475579965186, guid: 15659bd28ba2cf04987a2f3b9b805269,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Physics (Dense)
+    m_id: -2147483322
+    m_guid: 9e1d5deba4460f4479d7e1b4d238abe8
+    m_object: {fileID: 8311488980006075386, guid: 9e1d5deba4460f4479d7e1b4d238abe8,
+      type: 3}
+  - m_name: GeNa PW_Stone_01
+    m_id: -2147483321
+    m_guid: 7297f978cd1063c44a85d101881f7103
+    m_object: {fileID: 7748105768744832262, guid: 7297f978cd1063c44a85d101881f7103,
+      type: 3}
+  - m_name: GeNa PW_Stone_02
+    m_id: -2147483320
+    m_guid: 7bb3d0cfb90df92459ec57ec8537e356
+    m_object: {fileID: 3473661611512709272, guid: 7bb3d0cfb90df92459ec57ec8537e356,
+      type: 3}
+  - m_name: GeNa PW_Stone_03
+    m_id: -2147483319
+    m_guid: f651966589aa1be4586fa043398fe2f7
+    m_object: {fileID: 6386925242657041093, guid: f651966589aa1be4586fa043398fe2f7,
+      type: 3}
+  - m_name: GeNa PW_Stone_04
+    m_id: -2147483318
+    m_guid: be23d5da58127cf43ba1d0b3593540f6
+    m_object: {fileID: 1087182480963487016, guid: be23d5da58127cf43ba1d0b3593540f6,
+      type: 3}
+  - m_name: GeNa PW_Stone_05
+    m_id: -2147483317
+    m_guid: 8a619dfa47b0d8b4cbbabe2cab1e2394
+    m_object: {fileID: 7226011904753666140, guid: 8a619dfa47b0d8b4cbbabe2cab1e2394,
+      type: 3}
+  - m_name: GeNa PW_Stone_06
+    m_id: -2147483316
+    m_guid: 4477f822978123e43a0079dc613c99ee
+    m_object: {fileID: 1861245635832025789, guid: 4477f822978123e43a0079dc613c99ee,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03
+    m_id: -2147483315
+    m_guid: b09d0db6de3e4af4d841bec0b3634358
+    m_object: {fileID: 2476435757998810503, guid: b09d0db6de3e4af4d841bec0b3634358,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_01
+    m_id: -2147483314
+    m_guid: b6def87768ef8ba499cd45f1df930f3f
+    m_object: {fileID: 5648309458920170586, guid: b6def87768ef8ba499cd45f1df930f3f,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Physics (Light)
+    m_id: -2147483313
+    m_guid: 1d408cb8ea88da547a6b6e3087f4454e
+    m_object: {fileID: 8764994123902785829, guid: 1d408cb8ea88da547a6b6e3087f4454e,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stones Physics (Moderate)
+    m_id: -2147483312
+    m_guid: 166cb759b5e8de640a8755dfea256bb4
+    m_object: {fileID: 1813408118053987528, guid: 166cb759b5e8de640a8755dfea256bb4,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Berry Bushes (Dense)
+    m_id: -2147483311
+    m_guid: d1573d3abca21ed4dabc6dd321e604fd
+    m_object: {fileID: 4156011180843468378, guid: d1573d3abca21ed4dabc6dd321e604fd,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Berry Bushes (Light)
+    m_id: -2147483310
+    m_guid: 40e66eb1c2030c74ba8162f9ddda6f09
+    m_object: {fileID: 2371311777224593982, guid: 40e66eb1c2030c74ba8162f9ddda6f09,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Berry Bushes (Moderate)
+    m_id: -2147483309
+    m_guid: ba41afc78d268d94aa0ec547a60f0261
+    m_object: {fileID: 418893198996825002, guid: ba41afc78d268d94aa0ec547a60f0261,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Bushes (Dense)
+    m_id: -2147483308
+    m_guid: 4bc8adfaddc0e8740b3576e3dde77d27
+    m_object: {fileID: 577614761159329305, guid: 4bc8adfaddc0e8740b3576e3dde77d27,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Bushes (Light)
+    m_id: -2147483307
+    m_guid: 516a383a9cc0223418839ac637e9c716
+    m_object: {fileID: 7509902062947461216, guid: 516a383a9cc0223418839ac637e9c716,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Bushes (Moderate)
+    m_id: -2147483306
+    m_guid: 5c5cc28532002a74d998130d181c43b8
+    m_object: {fileID: 128146930131656619, guid: 5c5cc28532002a74d998130d181c43b8,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Ferns (Dense)
+    m_id: -2147483305
+    m_guid: 6520e7996643c8445803921dc69a12ad
+    m_object: {fileID: 2646436501890269369, guid: 6520e7996643c8445803921dc69a12ad,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Ferns (Light)
+    m_id: -2147483304
+    m_guid: 5988f3ebde808834bb303072f3713083
+    m_object: {fileID: 5815710297050442131, guid: 5988f3ebde808834bb303072f3713083,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Ferns (Moderate)
+    m_id: -2147483303
+    m_guid: 8d32588fea979624fb3eb661281816b8
+    m_object: {fileID: 5819992734590278746, guid: 8d32588fea979624fb3eb661281816b8,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Field Flowers (Dense)
+    m_id: -2147483302
+    m_guid: 6ae7a2443fa9d0a4bafce9267026ba94
+    m_object: {fileID: 6120671940721422690, guid: 6ae7a2443fa9d0a4bafce9267026ba94,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Field Flowers (Light)
+    m_id: -2147483301
+    m_guid: aebef3d4bf9407240abb0229e446b3db
+    m_object: {fileID: 4448558193903118006, guid: aebef3d4bf9407240abb0229e446b3db,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Field Flowers (Moderate)
+    m_id: -2147483300
+    m_guid: 63f99f5ec5ba4c64fbc4de61a9e74cc6
+    m_object: {fileID: 4401645375652657265, guid: 63f99f5ec5ba4c64fbc4de61a9e74cc6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Forest Plants (Dense)
+    m_id: -2147483299
+    m_guid: 79bfbac823683c145b7b08d595696a63
+    m_object: {fileID: 112573909649935980, guid: 79bfbac823683c145b7b08d595696a63,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Forest Plants (Light)
+    m_id: -2147483298
+    m_guid: 864c4341f4a05fc49b370909b275103a
+    m_object: {fileID: 6028918511766841088, guid: 864c4341f4a05fc49b370909b275103a,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Forest Plants (Moderate)
+    m_id: -2147483297
+    m_guid: 0559072062e0a4845a13e481c6604396
+    m_object: {fileID: 3648697936058193050, guid: 0559072062e0a4845a13e481c6604396,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Meadow Plants (Dense)
+    m_id: -2147483296
+    m_guid: ea8648a273956254e8e4b437d41feacf
+    m_object: {fileID: 6982901016038926987, guid: ea8648a273956254e8e4b437d41feacf,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Meadow Plants (Light)
+    m_id: -2147483295
+    m_guid: b2d569da40e61134f84958895c3be7cb
+    m_object: {fileID: 8094345008837937258, guid: b2d569da40e61134f84958895c3be7cb,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Meadow Plants (Moderate)
+    m_id: -2147483294
+    m_guid: 3d52b032674cba5489d31a814253f023
+    m_object: {fileID: 7513421511763928236, guid: 3d52b032674cba5489d31a814253f023,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Plants (Dense)
+    m_id: -2147483293
+    m_guid: c3f6661b1b05ec645b845a0ad81ce482
+    m_object: {fileID: 8665136240726276739, guid: c3f6661b1b05ec645b845a0ad81ce482,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Plants (Light)
+    m_id: -2147483292
+    m_guid: c2121d584edc66c4a9978e73af22bf58
+    m_object: {fileID: 7505904803783563816, guid: c2121d584edc66c4a9978e73af22bf58,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Plants (Moderate)
+    m_id: -2147483291
+    m_guid: 4e25437d392ec8845a4ecf945bfa9bd8
+    m_object: {fileID: 5144242762619435196, guid: 4e25437d392ec8845a4ecf945bfa9bd8,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stumps and Trunks (Dense)
+    m_id: -2147483290
+    m_guid: 1bf6b26b4745e1b46a6cf3ede04a6ffa
+    m_object: {fileID: 7749678842750741362, guid: 1bf6b26b4745e1b46a6cf3ede04a6ffa,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_03_Fallen
+    m_id: -2147483289
+    m_guid: e5dce92c1d212fa468c875dfc4872bf2
+    m_object: {fileID: 8078025883557141638, guid: e5dce92c1d212fa468c875dfc4872bf2,
+      type: 3}
+  - m_name: GeNa PW_Tree_Log_01_01
+    m_id: -2147483288
+    m_guid: c928620d9033efb47b17e43fa4657a1c
+    m_object: {fileID: 2852679864264454959, guid: c928620d9033efb47b17e43fa4657a1c,
+      type: 3}
+  - m_name: GeNa PW_Tree_Log_02
+    m_id: -2147483287
+    m_guid: c4e87a135b425b74394fc50b29b50d75
+    m_object: {fileID: 7756569372138690808, guid: c4e87a135b425b74394fc50b29b50d75,
+      type: 3}
+  - m_name: GeNa PW_Tree_Stump_01
+    m_id: -2147483286
+    m_guid: bf034dca0ce4a9440b99f1318c0634e5
+    m_object: {fileID: 2972847344039219850, guid: bf034dca0ce4a9440b99f1318c0634e5,
+      type: 3}
+  - m_name: GeNa PW_Tree_Stump_02
+    m_id: -2147483285
+    m_guid: fe4bb4e58a30128489db2cf14b6b974d
+    m_object: {fileID: 6938924808922056216, guid: fe4bb4e58a30128489db2cf14b6b974d,
+      type: 3}
+  - m_name: GeNa PW_Tree_Stump_03
+    m_id: -2147483284
+    m_guid: 584025afdbef06e49971e0149086e5ae
+    m_object: {fileID: 4416248010065222463, guid: 584025afdbef06e49971e0149086e5ae,
+      type: 3}
+  - m_name: GeNa PW_Tree_Stump_04_01
+    m_id: -2147483283
+    m_guid: 92cc790e9950b2041968387b042cf4da
+    m_object: {fileID: 4425907530726813180, guid: 92cc790e9950b2041968387b042cf4da,
+      type: 3}
+  - m_name: GeNa PW_Tree_Stump_04_02
+    m_id: -2147483282
+    m_guid: b63b98a160825d647a1255f0e435dc54
+    m_object: {fileID: 1199974252277876201, guid: b63b98a160825d647a1255f0e435dc54,
+      type: 3}
+  - m_name: GeNa PW_Tree_Stump_05
+    m_id: -2147483281
+    m_guid: 9fd740615fcd4ea4ba39196389e492c6
+    m_object: {fileID: 7296875793021771698, guid: 9fd740615fcd4ea4ba39196389e492c6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stumps and Trunks (Light)
+    m_id: -2147483280
+    m_guid: 289b6fd2ec83719458064d5fa321278b
+    m_object: {fileID: 5142600307254680835, guid: 289b6fd2ec83719458064d5fa321278b,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Stumps and Trunks (Moderate)
+    m_id: -2147483279
+    m_guid: e13638d9a89ab0f4dbc65e49823fde3c
+    m_object: {fileID: 1515069141243856515, guid: e13638d9a89ab0f4dbc65e49823fde3c,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Birch Growth
+    m_id: -2147483278
+    m_guid: e7d03aebaa476804fad6a65204164ed5
+    m_object: {fileID: 6803574587182511972, guid: e7d03aebaa476804fad6a65204164ed5,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Birch Trees (Dense)
+    m_id: -2147483277
+    m_guid: 2607bfdf6fa00074eb32cca86b5f7055
+    m_object: {fileID: 6627414381934184036, guid: 2607bfdf6fa00074eb32cca86b5f7055,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Birch Trees (Light)
+    m_id: -2147483276
+    m_guid: fe00b271384b1cc479dff6befb36d0f5
+    m_object: {fileID: 2238285945300956535, guid: fe00b271384b1cc479dff6befb36d0f5,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Birch Trees (Moderate)
+    m_id: -2147483275
+    m_guid: 5f1fd0bf396f4434fa03c25c36d09fe6
+    m_object: {fileID: 3897610884247599353, guid: 5f1fd0bf396f4434fa03c25c36d09fe6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Dead Trees (Dense)
+    m_id: -2147483274
+    m_guid: 127b5784f8963c3458fe9766fc4df889
+    m_object: {fileID: 4447933278884199594, guid: 127b5784f8963c3458fe9766fc4df889,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Dead Trees (Light)
+    m_id: -2147483273
+    m_guid: 14fec8e0cd020cb49a33dd6686eca0b5
+    m_object: {fileID: 6073212079616573307, guid: 14fec8e0cd020cb49a33dd6686eca0b5,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Dead Trees (Moderate)
+    m_id: -2147483272
+    m_guid: 01616078765b51d4b9368586e8d5eb81
+    m_object: {fileID: 3650883181674894035, guid: 01616078765b51d4b9368586e8d5eb81,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Forest Trees (Dense)
+    m_id: -2147483271
+    m_guid: d7138dc2398e0b9429e629d9e73d9311
+    m_object: {fileID: 1932093281477194828, guid: d7138dc2398e0b9429e629d9e73d9311,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Forest Trees (Light)
+    m_id: -2147483270
+    m_guid: c2ec0b5f860eb2947aec28bd02bc597c
+    m_object: {fileID: 1067240637262098826, guid: c2ec0b5f860eb2947aec28bd02bc597c,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Forest Trees (Moderate)
+    m_id: -2147483269
+    m_guid: 23add5985014ea84786dd3e475e3c2d1
+    m_object: {fileID: 5530940797472734141, guid: 23add5985014ea84786dd3e475e3c2d1,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Maple Growth
+    m_id: -2147483268
+    m_guid: 7b96a7064e088974692e2b1e93c11322
+    m_object: {fileID: 6309305577704851426, guid: 7b96a7064e088974692e2b1e93c11322,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Maple Trees (Dense)
+    m_id: -2147483267
+    m_guid: e8ab2c673cb820b4a86a094d487c5df3
+    m_object: {fileID: 8401456849182732708, guid: e8ab2c673cb820b4a86a094d487c5df3,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Maple Trees (Light)
+    m_id: -2147483266
+    m_guid: 859a27e2ffbaf0b46abe6fb19c069842
+    m_object: {fileID: 6602749893674743964, guid: 859a27e2ffbaf0b46abe6fb19c069842,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Maple Trees (Moderate)
+    m_id: -2147483265
+    m_guid: 3b4f86d6e4861424f8ab6ae982445058
+    m_object: {fileID: 3203988861600477423, guid: 3b4f86d6e4861424f8ab6ae982445058,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Meadow Trees (Dense)
+    m_id: -2147483264
+    m_guid: fa7b7e131fa36c14d9f7c79af47dc5bc
+    m_object: {fileID: 2830920358865399892, guid: fa7b7e131fa36c14d9f7c79af47dc5bc,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Meadow Trees (Light)
+    m_id: -2147483263
+    m_guid: 3898d09d1a413d549b6e2ae9c5d5c5ed
+    m_object: {fileID: 2142246463249530924, guid: 3898d09d1a413d549b6e2ae9c5d5c5ed,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Meadow Trees (Moderate)
+    m_id: -2147483262
+    m_guid: e5fc4661ae90826428a6b88df757e717
+    m_object: {fileID: 6803445133051260143, guid: e5fc4661ae90826428a6b88df757e717,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Oak Growth
+    m_id: -2147483261
+    m_guid: ea32f2bee04b50748ac6c1bae14ca49b
+    m_object: {fileID: 2438994319407573542, guid: ea32f2bee04b50748ac6c1bae14ca49b,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Oak Trees (Dense)
+    m_id: -2147483260
+    m_guid: afc8ba3ec6483be4894899308a1f66ec
+    m_object: {fileID: 7085907941994416010, guid: afc8ba3ec6483be4894899308a1f66ec,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Oak Trees (Light)
+    m_id: -2147483259
+    m_guid: 9a2b081698ea5664b8051ea23f9c40d6
+    m_object: {fileID: 6631628518564653932, guid: 9a2b081698ea5664b8051ea23f9c40d6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Oak Trees (Moderate)
+    m_id: -2147483258
+    m_guid: 0cdc9b01d327bd14ca3931a985e64b5d
+    m_object: {fileID: 2270424702577782486, guid: 0cdc9b01d327bd14ca3931a985e64b5d,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Pine Trees (Dense)
+    m_id: -2147483257
+    m_guid: 6627c366c72262f4898d9eaa8ecce07a
+    m_object: {fileID: 1361819164955156065, guid: 6627c366c72262f4898d9eaa8ecce07a,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Pine Trees (Light)
+    m_id: -2147483256
+    m_guid: 69bf58bb5370a124dbec311dde77ec81
+    m_object: {fileID: 2151618465776297634, guid: 69bf58bb5370a124dbec311dde77ec81,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Pine Trees (Moderate)
+    m_id: -2147483255
+    m_guid: b8957fc54a37e73419da2d7a2626d0d6
+    m_object: {fileID: 2007001675952734832, guid: b8957fc54a37e73419da2d7a2626d0d6,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Sequoia Trees (Dense)
+    m_id: -2147483254
+    m_guid: 13ae910ab4f45af4e883f328e5465a83
+    m_object: {fileID: 7358583509929016854, guid: 13ae910ab4f45af4e883f328e5465a83,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Sequoia Trees (Light)
+    m_id: -2147483253
+    m_guid: dcf52789c2eaa1b419f630c8e3fb3cf0
+    m_object: {fileID: 2061713481506008256, guid: dcf52789c2eaa1b419f630c8e3fb3cf0,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Sequoia Trees (Moderate)
+    m_id: -2147483252
+    m_guid: 65a93b3f5adcc8a45a2b878e9b211013
+    m_object: {fileID: 3530353589744131133, guid: 65a93b3f5adcc8a45a2b878e9b211013,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Small Trees (Dense)
+    m_id: -2147483251
+    m_guid: 7c3c25f0434191247b5074cf4e5be376
+    m_object: {fileID: 4740186651008191916, guid: 7c3c25f0434191247b5074cf4e5be376,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Small Trees (Light)
+    m_id: -2147483250
+    m_guid: aae16d7a26972124d837d4771ddc1f7f
+    m_object: {fileID: 3002127759545012660, guid: aae16d7a26972124d837d4771ddc1f7f,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Small Trees (Moderate)
+    m_id: -2147483249
+    m_guid: 1eebea9ab2cd1864da910b23b72f9759
+    m_object: {fileID: 997376746187589924, guid: 1eebea9ab2cd1864da910b23b72f9759,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Spruce Growth
+    m_id: -2147483248
+    m_guid: f83bdad9a8f66694d95200c21ad5e4cb
+    m_object: {fileID: 7868439811767644173, guid: f83bdad9a8f66694d95200c21ad5e4cb,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Spruce Trees (Dense)
+    m_id: -2147483247
+    m_guid: 4fba395857883364fb06b43acd7c51a8
+    m_object: {fileID: 3869617283623411834, guid: 4fba395857883364fb06b43acd7c51a8,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Spruce Trees (Light)
+    m_id: -2147483246
+    m_guid: 5e6212485d2d31b42877598bd5cafa9b
+    m_object: {fileID: 4569001944678608621, guid: 5e6212485d2d31b42877598bd5cafa9b,
+      type: 3}
+  - m_name: Spawner - Gaia Pro Spruce Trees (Moderate)
+    m_id: -2147483245
+    m_guid: 19c4b54282c961b4e8bc9fdea4f236dc
+    m_object: {fileID: 4540753310937864146, guid: 19c4b54282c961b4e8bc9fdea4f236dc,
+      type: 3}
+  - m_name: Spawner - Spawner - Gaia Pro Pine Growth
+    m_id: -2147483244
+    m_guid: 5a5d4a316634a73428e90d6a019cabaa
+    m_object: {fileID: 3809668098520345841, guid: 5a5d4a316634a73428e90d6a019cabaa,
+      type: 3}
+  - m_name: Spawner - Medium Farm 1
+    m_id: -2147483243
+    m_guid: 26af11c2671a222449b480a1d8239119
+    m_object: {fileID: 892566838376674800, guid: 26af11c2671a222449b480a1d8239119,
+      type: 3}
+  - m_name: fi_vil_GaiaWood02
+    m_id: -2147483242
+    m_guid: 794bd0555aaf92e45bce3e530d6b5e2e
+    m_object: {fileID: 139662, guid: 794bd0555aaf92e45bce3e530d6b5e2e, type: 3}
+  - m_name: fi_vil_GaiaWood05
+    m_id: -2147483241
+    m_guid: d747c76836744aa4893b40b73ceffbbb
+    m_object: {fileID: 188936, guid: d747c76836744aa4893b40b73ceffbbb, type: 3}
+  - m_name: fi_vil_GaiaChick01B
+    m_id: -2147483240
+    m_guid: 42eb11032615577459971a150b14b292
+    m_object: {fileID: 140904, guid: 42eb11032615577459971a150b14b292, type: 3}
+  - m_name: fi_vil_GaiaWood01
+    m_id: -2147483239
+    m_guid: f38e3859096e0204cad9396e676bb7ff
+    m_object: {fileID: 170324, guid: f38e3859096e0204cad9396e676bb7ff, type: 3}
+  - m_name: fi_vil_GaiaWagon02
+    m_id: -2147483238
+    m_guid: 45351f77a930ef048941e6b9d27ff1e5
+    m_object: {fileID: 106376, guid: 45351f77a930ef048941e6b9d27ff1e5, type: 3}
+  - m_name: fi_vil_GaiaWood09
+    m_id: -2147483237
+    m_guid: 093bf6390d9509648a188503feb0dc79
+    m_object: {fileID: 140950, guid: 093bf6390d9509648a188503feb0dc79, type: 3}
+  - m_name: fi_vil_GaiaWood07
+    m_id: -2147483236
+    m_guid: 8fbe68719e89aea4982064294ae132c7
+    m_object: {fileID: 176328, guid: 8fbe68719e89aea4982064294ae132c7, type: 3}
+  - m_name: fi_vil_GaiaWood13
+    m_id: -2147483235
+    m_guid: 9f2fe1e9cb73cd84ba9e3effc76035f8
+    m_object: {fileID: 110028, guid: 9f2fe1e9cb73cd84ba9e3effc76035f8, type: 3}
+  - m_name: fi_vil_GaiaWood10
+    m_id: -2147483234
+    m_guid: 6e454738044fc1c41b643593002d5e1a
+    m_object: {fileID: 139260, guid: 6e454738044fc1c41b643593002d5e1a, type: 3}
+  - m_name: fi_vil_GaiaWagon03
+    m_id: -2147483233
+    m_guid: 466d62a1695065546bbee1137e6b9111
+    m_object: {fileID: 126658, guid: 466d62a1695065546bbee1137e6b9111, type: 3}
+  - m_name: fi_vil_GaiaWood06
+    m_id: -2147483232
+    m_guid: b743a94e64fdba949b488f66a980231d
+    m_object: {fileID: 199750, guid: b743a94e64fdba949b488f66a980231d, type: 3}
+  - m_name: fi_vil_GaiaChick02
+    m_id: -2147483231
+    m_guid: 736017b347cd7a34bad2b77834a5eb42
+    m_object: {fileID: 170316, guid: 736017b347cd7a34bad2b77834a5eb42, type: 3}
+  - m_name: fi_vil_GaiaChick02B
+    m_id: -2147483230
+    m_guid: cfab073b8b6a8af46b3bc25aaa43aea1
+    m_object: {fileID: 165208, guid: cfab073b8b6a8af46b3bc25aaa43aea1, type: 3}
+  - m_name: fi_vil_GaiaWagon06
+    m_id: -2147483229
+    m_guid: 53e653d8083a62a4cbfe56076878e075
+    m_object: {fileID: 126492, guid: 53e653d8083a62a4cbfe56076878e075, type: 3}
+  - m_name: fi_vil_GaiaHouse04A
+    m_id: -2147483228
+    m_guid: d6621bd066d4f5941ba72cb651e5dcc5
+    m_object: {fileID: 180508, guid: d6621bd066d4f5941ba72cb651e5dcc5, type: 3}
+  - m_name: fi_vil_GaiaWagon07
+    m_id: -2147483227
+    m_guid: 120d67521fdef474eafcdbb01d41a1b2
+    m_object: {fileID: 189180, guid: 120d67521fdef474eafcdbb01d41a1b2, type: 3}
+  - m_name: fi_vil_GaiaWood04
+    m_id: -2147483226
+    m_guid: a746f8f8ef184b74d96f90bb35adfe64
+    m_object: {fileID: 139310, guid: a746f8f8ef184b74d96f90bb35adfe64, type: 3}
+  - m_name: fi_vil_GaiaChick01
+    m_id: -2147483225
+    m_guid: 6a81031bd0dcd3c4ea0ab8c3f5c552b2
+    m_object: {fileID: 199138, guid: 6a81031bd0dcd3c4ea0ab8c3f5c552b2, type: 3}
+  - m_name: fi_vil_GaiaWood03
+    m_id: -2147483224
+    m_guid: c4039b0464243be4ba47435bf8cca039
+    m_object: {fileID: 148710, guid: c4039b0464243be4ba47435bf8cca039, type: 3}
+  - m_name: fi_vil_GaiaWood11
+    m_id: -2147483223
+    m_guid: bea17cc144b90b6419ed4ff038d2fb46
+    m_object: {fileID: 156570, guid: bea17cc144b90b6419ed4ff038d2fb46, type: 3}
+  - m_name: fi_vil_GaiaWagon08
+    m_id: -2147483222
+    m_guid: c4b0e7c121b2b594290db52a13ae8940
+    m_object: {fileID: 181726, guid: c4b0e7c121b2b594290db52a13ae8940, type: 3}
+  - m_name: fi_vil_GaiaStable02B
+    m_id: -2147483221
+    m_guid: 4bd9d970814d4284d9f407bdf07a6745
+    m_object: {fileID: 128672, guid: 4bd9d970814d4284d9f407bdf07a6745, type: 3}
+  - m_name: fi_vil_GaiaFenseFull
+    m_id: -2147483220
+    m_guid: 2cfd54bf0c46b2b4ea3a18a8fc902902
+    m_object: {fileID: 101744, guid: 2cfd54bf0c46b2b4ea3a18a8fc902902, type: 3}
+  - m_name: fi_vil_GaiaForge01A
+    m_id: -2147483219
+    m_guid: e3fef1de7e28ed34dba244a8deac65d5
+    m_object: {fileID: 183232, guid: e3fef1de7e28ed34dba244a8deac65d5, type: 3}
+  - m_name: fi_vil_GaiaHouse01A
+    m_id: -2147483218
+    m_guid: c20e309bcff22ce4ba00ab495722a240
+    m_object: {fileID: 165038, guid: c20e309bcff22ce4ba00ab495722a240, type: 3}
+  - m_name: Spawner - Medium Farm 2
+    m_id: -2147483217
+    m_guid: 5ee4522d977fb2e4ba5c4e44074aab6a
+    m_object: {fileID: 8234643858997163230, guid: 5ee4522d977fb2e4ba5c4e44074aab6a,
+      type: 3}
+  - m_name: fi_vil_GaiaHouse02A
+    m_id: -2147483216
+    m_guid: c10db1330b067e64ebfa1d415c8b2d7d
+    m_object: {fileID: 188222, guid: c10db1330b067e64ebfa1d415c8b2d7d, type: 3}
+  - m_name: fi_vil_GaiaWagon04
+    m_id: -2147483215
+    m_guid: 155ac7d8933deb344bb407b5049e76cb
+    m_object: {fileID: 173626, guid: 155ac7d8933deb344bb407b5049e76cb, type: 3}
+  - m_name: fi_vil_GaiaWood08
+    m_id: -2147483214
+    m_guid: 405a4e8a192b51046b23af3a7c35ae62
+    m_object: {fileID: 180688, guid: 405a4e8a192b51046b23af3a7c35ae62, type: 3}
+  - m_name: fi_vil_GaiaStable02
+    m_id: -2147483213
+    m_guid: 571b59bec11db3d4ba1e35f0623c74b7
+    m_object: {fileID: 141058, guid: 571b59bec11db3d4ba1e35f0623c74b7, type: 3}
+  - m_name: fi_vil_GaiaStable01
+    m_id: -2147483212
+    m_guid: da06ef9c063b2644eb3f7ed4b3178aab
+    m_object: {fileID: 185346, guid: da06ef9c063b2644eb3f7ed4b3178aab, type: 3}
+  - m_name: fi_vil_GaiaWood12
+    m_id: -2147483211
+    m_guid: af011fc97887b5841a0a45f91c58c383
+    m_object: {fileID: 120134, guid: af011fc97887b5841a0a45f91c58c383, type: 3}
+  - m_name: fi_vil_GaiaWagon05
+    m_id: -2147483210
+    m_guid: f043bd7187b88ce4f8b4bb0c06411ed8
+    m_object: {fileID: 158224, guid: f043bd7187b88ce4f8b4bb0c06411ed8, type: 3}
+  - m_name: fi_vil_GaiaHouse01
+    m_id: -2147483209
+    m_guid: 35a7cbaffdda74841bcbccd1fd17ab8e
+    m_object: {fileID: 144478, guid: 35a7cbaffdda74841bcbccd1fd17ab8e, type: 3}
+  - m_name: fi_vil_GaiaHouse03
+    m_id: -2147483208
+    m_guid: aad076e158b8e5d49ae6020438281156
+    m_object: {fileID: 112204, guid: aad076e158b8e5d49ae6020438281156, type: 3}
+  - m_name: Spawner - Medium Farm Master
+    m_id: -2147483207
+    m_guid: 0ab5fd27e091aa0478a29c4851a13f8b
+    m_object: {fileID: 864467790861601041, guid: 0ab5fd27e091aa0478a29c4851a13f8b,
+      type: 3}
+  - m_name: Medium Farm 1 (Sub Spawner)
+    m_id: -2147483206
+    m_guid: e410f709c7cf8374e98f0e530728a75b
+    m_object: {fileID: 6085991357723256726, guid: e410f709c7cf8374e98f0e530728a75b,
+      type: 3}
+  - m_name: Medium Farm 2 (Sub Spawner)
+    m_id: -2147483205
+    m_guid: 88bf39778d189d543ab21f652aca60ea
+    m_object: {fileID: 8548805523789767883, guid: 88bf39778d189d543ab21f652aca60ea,
+      type: 3}
+  - m_name: Spawner - Small Farm 1
+    m_id: -2147483204
+    m_guid: ec6b851c5e8d89c41acff4ff28abfef6
+    m_object: {fileID: 6014424283382985074, guid: ec6b851c5e8d89c41acff4ff28abfef6,
+      type: 3}
+  - m_name: fi_vil_GaiaFenseCrossingHalf
+    m_id: -2147483203
+    m_guid: fdc563315018d384fa38ac8b344aa35c
+    m_object: {fileID: 128142, guid: fdc563315018d384fa38ac8b344aa35c, type: 3}
+  - m_name: Spawner - Small Farm 2
+    m_id: -2147483202
+    m_guid: 22552ffa8dbf5074085ec1984791596c
+    m_object: {fileID: 6040179238298547798, guid: 22552ffa8dbf5074085ec1984791596c,
+      type: 3}
+  - m_name: fi_vil_GaiaWagon01
+    m_id: -2147483201
+    m_guid: 13471ffc5e500724c98af771879832dc
+    m_object: {fileID: 119862, guid: 13471ffc5e500724c98af771879832dc, type: 3}
+  - m_name: Spawner - Small Farm 3
+    m_id: -2147483200
+    m_guid: 7e6387d9d74b28945bf6edcbef41d9ca
+    m_object: {fileID: 5059457670328637913, guid: 7e6387d9d74b28945bf6edcbef41d9ca,
+      type: 3}
+  - m_name: fi_vil_GaiaHouse03A
+    m_id: -2147483199
+    m_guid: 77ae1aff80ffe564b9f339ef78c5d3f2
+    m_object: {fileID: 150524, guid: 77ae1aff80ffe564b9f339ef78c5d3f2, type: 3}
+  - m_name: Spawner - Small Farm 4
+    m_id: -2147483198
+    m_guid: 5a3b0480926461a45bb5967b6729246e
+    m_object: {fileID: 1710149607063293262, guid: 5a3b0480926461a45bb5967b6729246e,
+      type: 3}
+  - m_name: Spawner - Small Farm 5
+    m_id: -2147483197
+    m_guid: e6d4472034470794d97c64ef32bfa77e
+    m_object: {fileID: 602962734410086641, guid: e6d4472034470794d97c64ef32bfa77e,
+      type: 3}
+  - m_name: fi_vil_GaiaForge01
+    m_id: -2147483196
+    m_guid: 69a8b82af9c20454ca564ce4b8e6c261
+    m_object: {fileID: 113722, guid: 69a8b82af9c20454ca564ce4b8e6c261, type: 3}
+  - m_name: Spawner - Small Farm 6
+    m_id: -2147483195
+    m_guid: 6943e4d7c9fc12141a9f33c2ffa279b2
+    m_object: {fileID: 7310593173672763240, guid: 6943e4d7c9fc12141a9f33c2ffa279b2,
+      type: 3}
+  - m_name: fi_vil_GaiaHouse04
+    m_id: -2147483194
+    m_guid: cdd4bdce779870f45a216754e31f3e36
+    m_object: {fileID: 131208, guid: cdd4bdce779870f45a216754e31f3e36, type: 3}
+  - m_name: Spawner - Small Farm Master
+    m_id: -2147483193
+    m_guid: cd29ec3ceebc15046ad9d441b8972f24
+    m_object: {fileID: 8175064721171055719, guid: cd29ec3ceebc15046ad9d441b8972f24,
+      type: 3}
+  - m_name: Small Farm 1 (Sub Spawner)
+    m_id: -2147483192
+    m_guid: 3ab76177ce01f774aa194286d32a4e44
+    m_object: {fileID: 3324648679563718732, guid: 3ab76177ce01f774aa194286d32a4e44,
+      type: 3}
+  - m_name: Small Farm 2 (Sub Spawner)
+    m_id: -2147483191
+    m_guid: 83a5bda21f2bf174f8eee859ac230175
+    m_object: {fileID: 7299383563635510433, guid: 83a5bda21f2bf174f8eee859ac230175,
+      type: 3}
+  - m_name: Small Farm 3 (Sub Spawner)
+    m_id: -2147483190
+    m_guid: 477740250ab84d243a22fcde7bdfe45e
+    m_object: {fileID: 768454920994319020, guid: 477740250ab84d243a22fcde7bdfe45e,
+      type: 3}
+  - m_name: Small Farm 4 (Sub Spawner)
+    m_id: -2147483189
+    m_guid: c9d30b7653e8e47489cc4930ff1c19dd
+    m_object: {fileID: 4053076268062779475, guid: c9d30b7653e8e47489cc4930ff1c19dd,
+      type: 3}
+  - m_name: Small Farm 5 (Sub Spawner)
+    m_id: -2147483188
+    m_guid: a763627eb35562548acc5b831e4278f8
+    m_object: {fileID: 523567563267016442, guid: a763627eb35562548acc5b831e4278f8,
+      type: 3}
+  - m_name: Small Farm 6 (Sub Spawner)
+    m_id: -2147483187
+    m_guid: a99b96aabefd45d43a0309802ddce3f0
+    m_object: {fileID: 1470790346705377623, guid: a99b96aabefd45d43a0309802ddce3f0,
+      type: 3}
+  - m_name: Spawner - Village 1
+    m_id: -2147483186
+    m_guid: 944c31781403ec84599b989c9808415b
+    m_object: {fileID: 6735877346611887894, guid: 944c31781403ec84599b989c9808415b,
+      type: 3}
+  - m_name: Spawner - Village 2
+    m_id: -2147483185
+    m_guid: 5791275bf03930d408f89b1040be60b1
+    m_object: {fileID: 2230029680623635244, guid: 5791275bf03930d408f89b1040be60b1,
+      type: 3}
+  - m_name: Spawner - Village 3
+    m_id: -2147483184
+    m_guid: 65875cc08619d5145b41ac8c8cccf29b
+    m_object: {fileID: 611534385069352304, guid: 65875cc08619d5145b41ac8c8cccf29b,
+      type: 3}
+  - m_name: Spawner - Village Master
+    m_id: -2147483183
+    m_guid: 22c5273db490de242aef7a6d5d94a40d
+    m_object: {fileID: 3886734933100393273, guid: 22c5273db490de242aef7a6d5d94a40d,
+      type: 3}
+  - m_name: Village 1 (Sub Spawner)
+    m_id: -2147483182
+    m_guid: 301187d036f00e04494ab06b05bb0ff4
+    m_object: {fileID: 3980469728915754512, guid: 301187d036f00e04494ab06b05bb0ff4,
+      type: 3}
+  - m_name: Village 2 (Sub Spawner)
+    m_id: -2147483181
+    m_guid: fe6bd35191bd715449de6f4a03cb5fbe
+    m_object: {fileID: 6414961251759584063, guid: fe6bd35191bd715449de6f4a03cb5fbe,
+      type: 3}
+  - m_name: Village 3 (Sub Spawner)
+    m_id: -2147483180
+    m_guid: 790bd0eee89b24e439aaf73a6451738b
+    m_object: {fileID: 672563843540352825, guid: 790bd0eee89b24e439aaf73a6451738b,
+      type: 3}
+  - m_name: PW_Plant_Fern_02
+    m_id: -2147483178
+    m_guid: 9e42153ee58d32041b031ccf0de992da
+    m_object: {fileID: 3926372882901288413, guid: 9e42153ee58d32041b031ccf0de992da,
+      type: 3}
+  - m_name: PW_Plant_Fern_01
+    m_id: -2147483177
+    m_guid: ed035562929f56d4eb82f3f4effc1166
+    m_object: {fileID: 3803426106304524782, guid: ed035562929f56d4eb82f3f4effc1166,
+      type: 3}
+  - m_name: PW_Plant_Bush_02
+    m_id: -2147483176
+    m_guid: 22c87c01f3456714f979901ae60c3026
+    m_object: {fileID: 7925783570752469250, guid: 22c87c01f3456714f979901ae60c3026,
+      type: 3}
+  - m_name: PW_Plant_Bush_06
+    m_id: -2147483175
+    m_guid: 0d10c9a77fefad04e89660457fbc05c3
+    m_object: {fileID: 8802334351857891039, guid: 0d10c9a77fefad04e89660457fbc05c3,
+      type: 3}
+  - m_name: PW_Plant_Bush_01
+    m_id: -2147483174
+    m_guid: 0195048848036f3428d33d445d16b71a
+    m_object: {fileID: 2176402563728498265, guid: 0195048848036f3428d33d445d16b71a,
+      type: 3}
+  - m_name: PW_Plant_Bush_05
+    m_id: -2147483173
+    m_guid: 6bb51860d1bd44140b5705050031cad8
+    m_object: {fileID: 6513692307377639098, guid: 6bb51860d1bd44140b5705050031cad8,
+      type: 3}
+  - m_name: PW_Tree_Pine_02 Long
+    m_id: -2147483172
+    m_guid: 37f4d2edca172904ba264bff7ad88d8a
+    m_object: {fileID: 3527719764134866729, guid: 37f4d2edca172904ba264bff7ad88d8a,
+      type: 3}
+  - m_name: PW_Plant_Bush_04
+    m_id: -2147483171
+    m_guid: d3df4d0b8baaec346aceb0f057c20e3d
+    m_object: {fileID: 3255635229305653702, guid: d3df4d0b8baaec346aceb0f057c20e3d,
+      type: 3}
+  - m_name: SM_POLYGON_Flower_01_B
+    m_id: -2147483170
+    m_guid: e4adfb197b8a552418adb0061dcf2627
+    m_object: {fileID: 1432918415059906, guid: e4adfb197b8a552418adb0061dcf2627, type: 3}
+  - m_name: SM_POLYGON_Flower_01_A
+    m_id: -2147483169
+    m_guid: 3819b57260ba68840901454eaaaf4fad
+    m_object: {fileID: 1432918415059906, guid: 3819b57260ba68840901454eaaaf4fad, type: 3}
+  - m_name: SM_POLYGON_Grass_01_A
+    m_id: -2147483168
+    m_guid: eeac81d0ef84d074db2873c2e2228cb3
+    m_object: {fileID: 1385651725428882, guid: eeac81d0ef84d074db2873c2e2228cb3, type: 3}
+  - m_name: SM_POLYGON_Grass_01_B
+    m_id: -2147483167
+    m_guid: 91281fbc8889be54f9e35ce19c72b52b
+    m_object: {fileID: 1385651725428882, guid: 91281fbc8889be54f9e35ce19c72b52b, type: 3}
+  - m_name: GeNa SM_POLYGON_Bush_01_A
+    m_id: -2147483166
+    m_guid: 29506641914d07a4c9b14322c06c090c
+    m_object: {fileID: 7866319081318215891, guid: 29506641914d07a4c9b14322c06c090c,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Bush_01_B
+    m_id: -2147483165
+    m_guid: 52c6ece6e61859b48af66030e1752653
+    m_object: {fileID: 4887185518226187608, guid: 52c6ece6e61859b48af66030e1752653,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Flower_01_A
+    m_id: -2147483164
+    m_guid: a0ef6c6c2a66a9e45a69a68f81d14109
+    m_object: {fileID: 1948008756813965996, guid: a0ef6c6c2a66a9e45a69a68f81d14109,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Flower_01_B
+    m_id: -2147483163
+    m_guid: 441514bd23e8d8d4eaa6eaa4d3084ca6
+    m_object: {fileID: 885044369547842226, guid: 441514bd23e8d8d4eaa6eaa4d3084ca6,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Grass_01_A
+    m_id: -2147483162
+    m_guid: 8f269a65a740518489472130eb249102
+    m_object: {fileID: 6181524695262651096, guid: 8f269a65a740518489472130eb249102,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Grass_01_B
+    m_id: -2147483161
+    m_guid: 5951605048296294f924d3ecb0a31663
+    m_object: {fileID: 6905549211967866605, guid: 5951605048296294f924d3ecb0a31663,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_01_A
+    m_id: -2147483160
+    m_guid: f61cf01c6c9e5e048a5e5c4d9c8898aa
+    m_object: {fileID: 3172345819655758955, guid: f61cf01c6c9e5e048a5e5c4d9c8898aa,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_01_B
+    m_id: -2147483159
+    m_guid: 16856008b7d477646ab456f2a31f6dc4
+    m_object: {fileID: 5827586802120780325, guid: 16856008b7d477646ab456f2a31f6dc4,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_02_A
+    m_id: -2147483158
+    m_guid: a3f94eb1c4dbf5e48a8a5a28a2d4396a
+    m_object: {fileID: 5595122459279314281, guid: a3f94eb1c4dbf5e48a8a5a28a2d4396a,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_02_B
+    m_id: -2147483157
+    m_guid: a8f1ade2517d6c749b0b67ea40b4a3f1
+    m_object: {fileID: 3167062081737723617, guid: a8f1ade2517d6c749b0b67ea40b4a3f1,
+      type: 3}
+  - m_name: GeNa PW_Plants_Berry_Bushes_01
+    m_id: -2147483156
+    m_guid: 5807ccf6663c24d42a3e9d4616d079fc
+    m_object: {fileID: 3572198026227531285, guid: 5807ccf6663c24d42a3e9d4616d079fc,
+      type: 3}
+  - m_name: GeNa PW_Plants_Berry_Bushes_02
+    m_id: -2147483155
+    m_guid: 18f123ae3fb8be44e8e62e786fda2cb9
+    m_object: {fileID: 6243146145336234243, guid: 18f123ae3fb8be44e8e62e786fda2cb9,
+      type: 3}
+  - m_name: GeNa PW_Plants_Berry_Bushes_03
+    m_id: -2147483154
+    m_guid: daa1adc15eaf2244da578017278dc6e3
+    m_object: {fileID: 4352797286606143060, guid: daa1adc15eaf2244da578017278dc6e3,
+      type: 3}
+  - m_name: GeNa PW_Plants_Berry_Bushes_04
+    m_id: -2147483153
+    m_guid: 0e837c0257e2a1a48aa32be7c2b0a41a
+    m_object: {fileID: 5714137033243526926, guid: 0e837c0257e2a1a48aa32be7c2b0a41a,
+      type: 3}
+  - m_name: GeNa PW_Plants_Bushes_01
+    m_id: -2147483152
+    m_guid: 8abeb728afc225848acd65d6d97a897b
+    m_object: {fileID: 8463052180032312791, guid: 8abeb728afc225848acd65d6d97a897b,
+      type: 3}
+  - m_name: GeNa PW_Plants_Bushes_02
+    m_id: -2147483151
+    m_guid: 565f07eae57ec8d40a5cecc88cadbf93
+    m_object: {fileID: 126393279051982043, guid: 565f07eae57ec8d40a5cecc88cadbf93,
+      type: 3}
+  - m_name: GeNa PW_Plant_Bush_01
+    m_id: -2147483150
+    m_guid: b577d5485abebcc4f8bfc9be940d70d7
+    m_object: {fileID: 906797964693989157, guid: b577d5485abebcc4f8bfc9be940d70d7,
+      type: 3}
+  - m_name: GeNa PW_Plant_Bush_02
+    m_id: -2147483149
+    m_guid: dd9c0aced9ee7504cb2b4a5027c7f6fe
+    m_object: {fileID: 818508889717409024, guid: dd9c0aced9ee7504cb2b4a5027c7f6fe,
+      type: 3}
+  - m_name: GeNa PW_Plant_Bush_03
+    m_id: -2147483148
+    m_guid: 0a9b0e1c25d804e45a6c7ba858059827
+    m_object: {fileID: 5636892515831691846, guid: 0a9b0e1c25d804e45a6c7ba858059827,
+      type: 3}
+  - m_name: GeNa PW_Plant_Bush_04
+    m_id: -2147483147
+    m_guid: acef955f894353b47a92adb31119e118
+    m_object: {fileID: 6176312148540716573, guid: acef955f894353b47a92adb31119e118,
+      type: 3}
+  - m_name: GeNa PW_Plant_Bush_05
+    m_id: -2147483146
+    m_guid: e9ae2eda2a35e9e499b467a4a1a08997
+    m_object: {fileID: 3284235323257329717, guid: e9ae2eda2a35e9e499b467a4a1a08997,
+      type: 3}
+  - m_name: GeNa PW_Plant_Bush_06
+    m_id: -2147483145
+    m_guid: 1d3ed835c39e43047bdc2f0a636951f9
+    m_object: {fileID: 8817277467791520330, guid: 1d3ed835c39e43047bdc2f0a636951f9,
+      type: 3}
+  - m_name: GeNa PW_Plant_Fern_01
+    m_id: -2147483144
+    m_guid: 3543d971d4f1f2f4d975ad45ef201cf6
+    m_object: {fileID: 8278747079517241366, guid: 3543d971d4f1f2f4d975ad45ef201cf6,
+      type: 3}
+  - m_name: GeNa PW_Plant_Fern_02
+    m_id: -2147483143
+    m_guid: ecbb9d3cc6134024c8a0aabf892216bc
+    m_object: {fileID: 478406889535483715, guid: ecbb9d3cc6134024c8a0aabf892216bc,
+      type: 3}
+  - m_name: GeNa PW_Plant_Fern_Realistic_01
+    m_id: -2147483142
+    m_guid: 1c666718738672a449d0bc2dd8de8f8a
+    m_object: {fileID: 5541416903211917382, guid: 1c666718738672a449d0bc2dd8de8f8a,
+      type: 3}
+  - m_name: GeNa PW_Plant_Fern_Realistic_02
+    m_id: -2147483141
+    m_guid: 733bf7f6e2ee36f47b272d75f8af840a
+    m_object: {fileID: 3176257562121505381, guid: 733bf7f6e2ee36f47b272d75f8af840a,
+      type: 3}
+  - m_name: GeNa PW_Plant_Fern_Realistic_03
+    m_id: -2147483140
+    m_guid: 94430aaf96a77c244af54d8e0983142c
+    m_object: {fileID: 5845277785717365912, guid: 94430aaf96a77c244af54d8e0983142c,
+      type: 3}
+  - m_name: GeNa PW_Plants_Flower_Field_01
+    m_id: -2147483139
+    m_guid: 44b40bef2538bb74d9d8b2a2996e49b7
+    m_object: {fileID: 2563302469801437570, guid: 44b40bef2538bb74d9d8b2a2996e49b7,
+      type: 3}
+  - m_name: GeNa PW_Plants_Flower_Field_02
+    m_id: -2147483138
+    m_guid: 25bb0aba46d709f4aa1ba7823346d7cd
+    m_object: {fileID: 8402330171639593200, guid: 25bb0aba46d709f4aa1ba7823346d7cd,
+      type: 3}
+  - m_name: GeNa PW_Plants_Flower_Field_03
+    m_id: -2147483137
+    m_guid: 92deb235f1a1fb84faa7b45f3dc056e3
+    m_object: {fileID: 2962533281525999144, guid: 92deb235f1a1fb84faa7b45f3dc056e3,
+      type: 3}
+  - m_name: GeNa PW_Plants_Flower_Field_04
+    m_id: -2147483136
+    m_guid: 99f14147eabe7fc43a001409c81a8e6a
+    m_object: {fileID: 2042224688108833292, guid: 99f14147eabe7fc43a001409c81a8e6a,
+      type: 3}
+  - m_name: GeNa PW_Flower_Cluster_01
+    m_id: -2147483135
+    m_guid: fa300faa4c776374b99c82833ec8b302
+    m_object: {fileID: 3178170485730524518, guid: fa300faa4c776374b99c82833ec8b302,
+      type: 3}
+  - m_name: GeNa PW_Flower_Cluster_02
+    m_id: -2147483134
+    m_guid: 5b81452c16b03a443a38b9798e08c951
+    m_object: {fileID: 2816985332145104431, guid: 5b81452c16b03a443a38b9798e08c951,
+      type: 3}
+  - m_name: GeNa PW_Flower_Cluster_04
+    m_id: -2147483133
+    m_guid: 25838427620e7984e9b9f0a70be87228
+    m_object: {fileID: 1932779231201741181, guid: 25838427620e7984e9b9f0a70be87228,
+      type: 3}
+  - m_name: GeNa PW_Flower_Cluster_05
+    m_id: -2147483132
+    m_guid: aacf5f119dc535e45b4089896970a574
+    m_object: {fileID: 4326919274964382173, guid: aacf5f119dc535e45b4089896970a574,
+      type: 3}
+  - m_name: GeNa PW_Flower_Cluster_06
+    m_id: -2147483131
+    m_guid: 1f9bda5e982aa14428edb649947b2432
+    m_object: {fileID: 4478266836791245930, guid: 1f9bda5e982aa14428edb649947b2432,
+      type: 3}
+  - m_name: GeNa PW_Tree_Fallen_Sequoia
+    m_id: -2147483130
+    m_guid: a0abb04cee3294b44aa00fb13a26b563
+    m_object: {fileID: 4163404483261367666, guid: a0abb04cee3294b44aa00fb13a26b563,
+      type: 3}
+  - m_name: GeNa PW_Tree_Birch_01
+    m_id: -2147483129
+    m_guid: 2b006fbcd2594744cb439a814ddcde94
+    m_object: {fileID: 7066527441700305914, guid: 2b006fbcd2594744cb439a814ddcde94,
+      type: 3}
+  - m_name: GeNa PW_Tree_Birch_02
+    m_id: -2147483128
+    m_guid: 01acb1b6cdb3ded47aaea87cd50f9893
+    m_object: {fileID: 8578430869308510209, guid: 01acb1b6cdb3ded47aaea87cd50f9893,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02_01
+    m_id: -2147483127
+    m_guid: f5f3825cd3a87f54ba9a747f291015df
+    m_object: {fileID: 2733306056541315173, guid: f5f3825cd3a87f54ba9a747f291015df,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02_02
+    m_id: -2147483126
+    m_guid: 03d5c8240d47a4d48b0999701e9e11ba
+    m_object: {fileID: 3154586513135091270, guid: 03d5c8240d47a4d48b0999701e9e11ba,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02_03
+    m_id: -2147483125
+    m_guid: a5c54d9273d2fde488df85ed42bd1b9e
+    m_object: {fileID: 1883589868139996725, guid: a5c54d9273d2fde488df85ed42bd1b9e,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02_04
+    m_id: -2147483124
+    m_guid: 26066eeb87eac4a43ac24d6eb888cad3
+    m_object: {fileID: 1622160491463017580, guid: 26066eeb87eac4a43ac24d6eb888cad3,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02_05
+    m_id: -2147483123
+    m_guid: 39c6c2d4cddeffc4fb98eff7d684c4ae
+    m_object: {fileID: 2057007042940985104, guid: 39c6c2d4cddeffc4fb98eff7d684c4ae,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02_06
+    m_id: -2147483122
+    m_guid: 5a0f6975dffb1a1409749562ac22e661
+    m_object: {fileID: 829394058460154801, guid: 5a0f6975dffb1a1409749562ac22e661,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_03
+    m_id: -2147483121
+    m_guid: ad3cb9fa8ac51014c9faf318e28dc7ee
+    m_object: {fileID: 5397315763024826061, guid: ad3cb9fa8ac51014c9faf318e28dc7ee,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_04
+    m_id: -2147483120
+    m_guid: 132b5d5c557f04a498ffca5a0733f865
+    m_object: {fileID: 353120200253247921, guid: 132b5d5c557f04a498ffca5a0733f865,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_05
+    m_id: -2147483119
+    m_guid: 7f66677a48ec7b24e93d9ee0e80db7f7
+    m_object: {fileID: 1147237623260160983, guid: 7f66677a48ec7b24e93d9ee0e80db7f7,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_06
+    m_id: -2147483118
+    m_guid: 3d0484aaf5879864cb989af59e1403f7
+    m_object: {fileID: 2190122233055327164, guid: 3d0484aaf5879864cb989af59e1403f7,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_01
+    m_id: -2147483117
+    m_guid: 2a86fd8ee1f08e94fa17ec8456c11f56
+    m_object: {fileID: 73747199266682690, guid: 2a86fd8ee1f08e94fa17ec8456c11f56,
+      type: 3}
+  - m_name: GeNa PW_Tree_Dead_02
+    m_id: -2147483116
+    m_guid: ce3fa0737223f0a47be85762992bd34d
+    m_object: {fileID: 6858717301004616717, guid: ce3fa0737223f0a47be85762992bd34d,
+      type: 3}
+  - m_name: GeNa PW_Tree_Pine_01_Hero
+    m_id: -2147483115
+    m_guid: 5f39780f461cc1542b69c1a7a60a09d8
+    m_object: {fileID: 2141345542682567640, guid: 5f39780f461cc1542b69c1a7a60a09d8,
+      type: 3}
+  - m_name: GeNa PW_Tree_Pine_01_Long
+    m_id: -2147483114
+    m_guid: be65374fe29ce1341bc2522a9cc02ca9
+    m_object: {fileID: 3171056013071006257, guid: be65374fe29ce1341bc2522a9cc02ca9,
+      type: 3}
+  - m_name: GeNa PW_Tree_Pine_02 Long
+    m_id: -2147483113
+    m_guid: 4f97b0f915b59054699bd826399e78b1
+    m_object: {fileID: 7234480049279472821, guid: 4f97b0f915b59054699bd826399e78b1,
+      type: 3}
+  - m_name: GeNa PW_Tree_Pine_02_Hero
+    m_id: -2147483112
+    m_guid: 78cb4115dbf62b048b4df3ffed0fb2e5
+    m_object: {fileID: 5536300834470731894, guid: 78cb4115dbf62b048b4df3ffed0fb2e5,
+      type: 3}
+  - m_name: GeNa PW_Tree_Pine_03_Hero
+    m_id: -2147483111
+    m_guid: 5b10c6b6f9a9d1149a4c740da6b792c5
+    m_object: {fileID: 7171747611962290787, guid: 5b10c6b6f9a9d1149a4c740da6b792c5,
+      type: 3}
+  - m_name: GeNa PW_Tree_Sequoia_01
+    m_id: -2147483110
+    m_guid: 2c646dc5802271348958531e03149fe4
+    m_object: {fileID: 8086394613703840877, guid: 2c646dc5802271348958531e03149fe4,
+      type: 3}
+  - m_name: GeNa PW_Tree_Sequoia_02
+    m_id: -2147483109
+    m_guid: 7a9f292b40d53db4290c349cd3661340
+    m_object: {fileID: 3533102219281560483, guid: 7a9f292b40d53db4290c349cd3661340,
+      type: 3}
+  - m_name: GeNa PW_Tree_Small_01
+    m_id: -2147483108
+    m_guid: b38a8a5d95767ac41ae0b07e8a3b735b
+    m_object: {fileID: 8893140956674739137, guid: b38a8a5d95767ac41ae0b07e8a3b735b,
+      type: 3}
+  - m_name: GeNa PW_Tree_Small_02
+    m_id: -2147483107
+    m_guid: c0d2fc384ede1e341a7a4c07b29cf30a
+    m_object: {fileID: 6883548908016459870, guid: c0d2fc384ede1e341a7a4c07b29cf30a,
+      type: 3}
+  - m_name: GeNa PW_Tree_Spruce_01
+    m_id: -2147483106
+    m_guid: d0db8f0af84319e47a4e1d807d0b1a2d
+    m_object: {fileID: 8976381971179960540, guid: d0db8f0af84319e47a4e1d807d0b1a2d,
+      type: 3}
+  - m_name: GeNa PW_Tree_Spruce_02
+    m_id: -2147483105
+    m_guid: 94e1901da6e5f6940ad0cd7905efb755
+    m_object: {fileID: 1917424678936474950, guid: 94e1901da6e5f6940ad0cd7905efb755,
+      type: 3}
+  - m_name: GeNa PW_Tree_Spruce_04
+    m_id: -2147483104
+    m_guid: 92613225fd74fbb49b6bcb51e8b03179
+    m_object: {fileID: 4067976528505755083, guid: 92613225fd74fbb49b6bcb51e8b03179,
+      type: 3}
+  - m_name: GeNa PW_Tree_Spruce_05
+    m_id: -2147483103
+    m_guid: d2ad6e07aaaad354fa7108a32bb897a5
+    m_object: {fileID: 6304517925816463755, guid: d2ad6e07aaaad354fa7108a32bb897a5,
+      type: 3}
+  - m_name: GeNa PW_Tree_Spruce_06
+    m_id: -2147483102
+    m_guid: a3bd2d6bb7d06cc44a62fcc3c3e41921
+    m_object: {fileID: 131125458462741282, guid: a3bd2d6bb7d06cc44a62fcc3c3e41921,
+      type: 3}
+  - m_name: GeNa PW_Tree_Spruce_07_Hero
+    m_id: -2147483101
+    m_guid: e6d3acaa305308346811bc0f704259a8
+    m_object: {fileID: 2363903047801784709, guid: e6d3acaa305308346811bc0f704259a8,
+      type: 3}
+  - m_name: GeNa PW_Tree_Maple_01
+    m_id: -2147483100
+    m_guid: b57a368eda30b4149a7513dd436fc43f
+    m_object: {fileID: 426422575709907318, guid: b57a368eda30b4149a7513dd436fc43f,
+      type: 3}
+  - m_name: GeNa PW_Tree_Maple_02
+    m_id: -2147483099
+    m_guid: a77dd72e222c3bc43a7b642ad96366f1
+    m_object: {fileID: 7315858650041501071, guid: a77dd72e222c3bc43a7b642ad96366f1,
+      type: 3}
+  - m_name: GeNa PW_Tree_Maple_Small_01
+    m_id: -2147483098
+    m_guid: 416fd5477d37c7b43a0d8587d3e7238f
+    m_object: {fileID: 2538853461926803580, guid: 416fd5477d37c7b43a0d8587d3e7238f,
+      type: 3}
+  - m_name: GeNa PW_Tree_Oak_01
+    m_id: -2147483097
+    m_guid: 94bf2cecf6aeb6a4cb97f091664cc092
+    m_object: {fileID: 9202812829252417514, guid: 94bf2cecf6aeb6a4cb97f091664cc092,
+      type: 3}
+  - m_name: GeNa PW_Tree_Oak_02
+    m_id: -2147483096
+    m_guid: 3cb6803d3f91c444fa90964fb9b7be1b
+    m_object: {fileID: 6543347873590593068, guid: 3cb6803d3f91c444fa90964fb9b7be1b,
+      type: 3}
+  - m_name: GeNa PW_Tree_Oak_03
+    m_id: -2147483095
+    m_guid: ce255cb901c90ba42b3e59b015ef2feb
+    m_object: {fileID: 3523119537562421876, guid: ce255cb901c90ba42b3e59b015ef2feb,
+      type: 3}
+  - m_name: GeNa PW_Tree_Oak_Small_01
+    m_id: -2147483094
+    m_guid: 56d2fa068c8497947b4d8d7f3e089f3d
+    m_object: {fileID: 5854925870391940516, guid: 56d2fa068c8497947b4d8d7f3e089f3d,
+      type: 3}
+  - m_name: Spawner - Forest Layout Master (Sub Spawner)
+    m_id: -2147483093
+    m_guid: 4666c1130ff44a045b7556d7cc9a1e4d
+    m_object: {fileID: 2868139122608618099, guid: 4666c1130ff44a045b7556d7cc9a1e4d,
+      type: 3}
+  - m_name: Spawner - Grassland Layout Master (Sub Spawner)
+    m_id: -2147483092
+    m_guid: 9e0c35a7a3a944c4ba89df01bbcd39bf
+    m_object: {fileID: 8718026577458381752, guid: 9e0c35a7a3a944c4ba89df01bbcd39bf,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_01_A GameObject
+    m_id: -2147483091
+    m_guid: 79ffb401a2ccd6c4fa50fd99d37f5293
+    m_object: {fileID: 3172345819655758955, guid: 79ffb401a2ccd6c4fa50fd99d37f5293,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_01_B GameObject
+    m_id: -2147483090
+    m_guid: ce2d4ed463d36ef4385db82bec50def7
+    m_object: {fileID: 5827586802120780325, guid: ce2d4ed463d36ef4385db82bec50def7,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_02_A GameObject
+    m_id: -2147483089
+    m_guid: b728afa7115134c478dac58286334cb7
+    m_object: {fileID: 5595122459279314281, guid: b728afa7115134c478dac58286334cb7,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Tree_02_B GameObject
+    m_id: -2147483088
+    m_guid: b22b0bf51b7fa954aa761a24406742e7
+    m_object: {fileID: 3167062081737723617, guid: b22b0bf51b7fa954aa761a24406742e7,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Bush_01_A GameObject
+    m_id: -2147483087
+    m_guid: caecdc33bdc92944298e29da2d69db37
+    m_object: {fileID: 7866319081318215891, guid: caecdc33bdc92944298e29da2d69db37,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Bush_01_B GameObject
+    m_id: -2147483086
+    m_guid: 62402a39261b82443ba25372a78d3ffc
+    m_object: {fileID: 4887185518226187608, guid: 62402a39261b82443ba25372a78d3ffc,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Flower_01_A GameObject
+    m_id: -2147483085
+    m_guid: 35c6d74080b985f4bb1c8148388dde5e
+    m_object: {fileID: 1948008756813965996, guid: 35c6d74080b985f4bb1c8148388dde5e,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Flower_01_B GameObject
+    m_id: -2147483084
+    m_guid: e7d7e931a28d0e74b9a4371fc32a954d
+    m_object: {fileID: 885044369547842226, guid: e7d7e931a28d0e74b9a4371fc32a954d,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Grass_01_A GameObject
+    m_id: -2147483083
+    m_guid: c14780113d342294aa986e48865711c1
+    m_object: {fileID: 6181524695262651096, guid: c14780113d342294aa986e48865711c1,
+      type: 3}
+  - m_name: GeNa SM_POLYGON_Grass_01_B GameObject
+    m_id: -2147483082
+    m_guid: c28bff104decd3f468bed3d5c32d84f7
+    m_object: {fileID: 6905549211967866605, guid: c28bff104decd3f468bed3d5c32d84f7,
+      type: 3}
+  - m_name: GeNa PW_Stone_01
+    m_id: -2147483081
+    m_guid: 53a10c50d8d9097419c914fa7c45bffa
+    m_object: {fileID: 5636019596121454748, guid: 53a10c50d8d9097419c914fa7c45bffa,
+      type: 3}
+  - m_name: GeNa PW_Stone_02
+    m_id: -2147483080
+    m_guid: 81cc916bf8ec32b499792b966a203fd3
+    m_object: {fileID: 5025604638035655135, guid: 81cc916bf8ec32b499792b966a203fd3,
+      type: 3}
+  - m_name: GeNa PW_Stone_03
+    m_id: -2147483079
+    m_guid: dc0cae95c50c9a14284b9430b00f256f
+    m_object: {fileID: 5707920409633092220, guid: dc0cae95c50c9a14284b9430b00f256f,
+      type: 3}
+  - m_name: GeNa PW_Stone_04
+    m_id: -2147483078
+    m_guid: 853a4de10d5950c4a93e486931f99a1f
+    m_object: {fileID: 4866765795876784983, guid: 853a4de10d5950c4a93e486931f99a1f,
+      type: 3}
+  - m_name: GeNa PW_Stone_05
+    m_id: -2147483077
+    m_guid: 3cf34565f70eccd46bfc7dc1cddddb92
+    m_object: {fileID: 5605375460746495397, guid: 3cf34565f70eccd46bfc7dc1cddddb92,
+      type: 3}
+  - m_name: GeNa PW_Stone_06
+    m_id: -2147483076
+    m_guid: 299aece276001974eb4f70be76f70714
+    m_object: {fileID: 8720991054948537056, guid: 299aece276001974eb4f70be76f70714,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03
+    m_id: -2147483075
+    m_guid: 97967ef858a0d6d408062a5cd4dde412
+    m_object: {fileID: 3912301063796163475, guid: 97967ef858a0d6d408062a5cd4dde412,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_01
+    m_id: -2147483074
+    m_guid: 3bbd57954de876c47aa41294359df8e5
+    m_object: {fileID: 5989824288386502481, guid: 3bbd57954de876c47aa41294359df8e5,
+      type: 3}
+  - m_name: GeNa PW_Stone_01_River
+    m_id: -2147483073
+    m_guid: afa14214905226346a13cd86426d35e1
+    m_object: {fileID: 5636019596121454748, guid: afa14214905226346a13cd86426d35e1,
+      type: 3}
+  - m_name: GeNa PW_Stone_02_River
+    m_id: -2147483072
+    m_guid: 91c4c41c94afce044853b2ae6dde895a
+    m_object: {fileID: 5025604638035655135, guid: 91c4c41c94afce044853b2ae6dde895a,
+      type: 3}
+  - m_name: GeNa PW_Stone_03_River
+    m_id: -2147483071
+    m_guid: dc3bac2f904a7d24681a78482fcf5fa8
+    m_object: {fileID: 5707920409633092220, guid: dc3bac2f904a7d24681a78482fcf5fa8,
+      type: 3}
+  - m_name: GeNa PW_Stone_04_River
+    m_id: -2147483070
+    m_guid: 3f44bed9eebd6ca429f4b7e995c1b6d0
+    m_object: {fileID: 4866765795876784983, guid: 3f44bed9eebd6ca429f4b7e995c1b6d0,
+      type: 3}
+  - m_name: GeNa PW_Stone_05_River
+    m_id: -2147483069
+    m_guid: 5afbfb3f1f8a6284e99dbb4aefe86d11
+    m_object: {fileID: 5605375460746495397, guid: 5afbfb3f1f8a6284e99dbb4aefe86d11,
+      type: 3}
+  - m_name: GeNa PW_Stone_06_River
+    m_id: -2147483068
+    m_guid: b18724149d323e344b0f2ef05c52ad28
+    m_object: {fileID: 8720991054948537056, guid: b18724149d323e344b0f2ef05c52ad28,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_01_River
+    m_id: -2147483067
+    m_guid: e15ca8af550114248a7252dd8d406649
+    m_object: {fileID: 3912301063796163475, guid: e15ca8af550114248a7252dd8d406649,
+      type: 3}
+  - m_name: GeNa PW_Stone_Granite_03_River
+    m_id: -2147483066
+    m_guid: b64d3ec25715ce04591e15ba30874deb
+    m_object: {fileID: 5989824288386502481, guid: b64d3ec25715ce04591e15ba30874deb,
+      type: 3}
+  - m_name: Sub Spawners
+    m_id: -2147483065
+    m_guid: 2bf7e5d028f4b0a40b111c20f2ac2223
+    m_object: {fileID: 2178153375899347725, guid: 2bf7e5d028f4b0a40b111c20f2ac2223,
+      type: 3}
+  - m_name: Spawner - Forest Large Master (Sub Spawner)
+    m_id: -2147483064
+    m_guid: 9cc0457fcb045fe44a0ba260383f5456
+    m_object: {fileID: 5913386689529834976, guid: 9cc0457fcb045fe44a0ba260383f5456,
+      type: 3}
+  - m_name: GeNa PW_Flower_Cluster_03
+    m_id: -2147483063
+    m_guid: 03a71e6962e7e38438718cede76fa311
+    m_object: {fileID: 3178170485730524518, guid: 03a71e6962e7e38438718cede76fa311,
+      type: 3}
+  - m_name: pwub_builtin_1_c5
+    m_id: -2147483062
+    m_guid: 8562e5af4cc78dd488059285d0c642d1
+    m_object: {fileID: 2800000, guid: 8562e5af4cc78dd488059285d0c642d1, type: 3}
+  - m_name: pwub_builtin_2_c5
+    m_id: -2147483061
+    m_guid: f77fc97af49c16c4cb3927a1d0462e79
+    m_object: {fileID: 2800000, guid: f77fc97af49c16c4cb3927a1d0462e79, type: 3}
+  - m_name: pwub_builtin_3_c5
+    m_id: -2147483060
+    m_guid: 9cd761b0a0aa72648a348e5ebfd6e86b
+    m_object: {fileID: 2800000, guid: 9cd761b0a0aa72648a348e5ebfd6e86b, type: 3}
+  - m_name: pwub_builtin_4_c5
+    m_id: -2147483059
+    m_guid: 3d320e63902a22c4a936a386d3b82942
+    m_object: {fileID: 2800000, guid: 3d320e63902a22c4a936a386d3b82942, type: 3}
+  - m_name: pwub_builtin_5_c5
+    m_id: -2147483058
+    m_guid: d655b3415e9b4a349bdfff62e290f6a0
+    m_object: {fileID: 2800000, guid: d655b3415e9b4a349bdfff62e290f6a0, type: 3}
+  - m_name: pwub_builtin_6_c5
+    m_id: -2147483057
+    m_guid: 86ce52cdd27d0214786d1ffd6923fff6
+    m_object: {fileID: 2800000, guid: 86ce52cdd27d0214786d1ffd6923fff6, type: 3}
+  - m_name: pwub_builtin_7_c5
+    m_id: -2147483056
+    m_guid: 9236ebf756af8954193c9c44e05ba09e
+    m_object: {fileID: 2800000, guid: 9236ebf756af8954193c9c44e05ba09e, type: 3}
+  - m_name: pwub_builtin_8_c5
+    m_id: -2147483055
+    m_guid: a913d21bd6330f64bae5eb7e5fbd830b
+    m_object: {fileID: 2800000, guid: a913d21bd6330f64bae5eb7e5fbd830b, type: 3}
+  - m_name: pwub_builtin_9_c5
+    m_id: -2147483054
+    m_guid: 7fd839b086d4a844d83cbe9490683855
+    m_object: {fileID: 2800000, guid: 7fd839b086d4a844d83cbe9490683855, type: 3}
+  - m_name: pwub_builtin_10_c5
+    m_id: -2147483053
+    m_guid: 9fd32fab18db93d4bab18a1fb6923819
+    m_object: {fileID: 2800000, guid: 9fd32fab18db93d4bab18a1fb6923819, type: 3}
+  - m_name: pwub_builtin_11_c5
+    m_id: -2147483052
+    m_guid: 05c00cf657919e346bebf9e153c56e66
+    m_object: {fileID: 2800000, guid: 05c00cf657919e346bebf9e153c56e66, type: 3}
+  - m_name: pwub_builtin_12_c5
+    m_id: -2147483051
+    m_guid: 2fbda824cdc093e4c9951a5f273f6554
+    m_object: {fileID: 2800000, guid: 2fbda824cdc093e4c9951a5f273f6554, type: 3}
+  - m_name: pwub_builtin_13_c5
+    m_id: -2147483050
+    m_guid: 27e1a0b4841c0b34eb51ed3e21e50691
+    m_object: {fileID: 2800000, guid: 27e1a0b4841c0b34eb51ed3e21e50691, type: 3}
+  - m_name: pwub_builtin_14_c5
+    m_id: -2147483049
+    m_guid: 4a374978ee6c9ab46a39372d609f7e1e
+    m_object: {fileID: 2800000, guid: 4a374978ee6c9ab46a39372d609f7e1e, type: 3}
+  - m_name: pwub_builtin_15_c5
+    m_id: -2147483048
+    m_guid: 128216f3a20cb73458440e12e657db4b
+    m_object: {fileID: 2800000, guid: 128216f3a20cb73458440e12e657db4b, type: 3}
+  - m_name: pwub_builtin_16_c5
+    m_id: -2147483047
+    m_guid: 410d50fd32c308c46a95f502d3c7c2ff
+    m_object: {fileID: 2800000, guid: 410d50fd32c308c46a95f502d3c7c2ff, type: 3}
+  - m_name: pwub_builtin_17_c5
+    m_id: -2147483046
+    m_guid: cc056045a1782ac4a8c08bdce66d49ed
+    m_object: {fileID: 2800000, guid: cc056045a1782ac4a8c08bdce66d49ed, type: 3}
+  - m_name: pwub_builtin_18_c5
+    m_id: -2147483045
+    m_guid: b04e2e83ee1283545a02e1bab08989ba
+    m_object: {fileID: 2800000, guid: b04e2e83ee1283545a02e1bab08989ba, type: 3}
+  - m_name: pwub_builtin_19_c5
+    m_id: -2147483044
+    m_guid: e24fd533463218644ae0bb81977c5e99
+    m_object: {fileID: 2800000, guid: e24fd533463218644ae0bb81977c5e99, type: 3}
+  - m_name: pwub_builtin_20_c5
+    m_id: -2147483043
+    m_guid: 738922d98c7b6f242bcd7f511badbef5
+    m_object: {fileID: 2800000, guid: 738922d98c7b6f242bcd7f511badbef5, type: 3}
+  - m_name: Town Base Mask
+    m_id: -2147483042
+    m_guid: 7e32d9c8aa774c04790cc0a2913f7dec
+    m_object: {fileID: 2800000, guid: 7e32d9c8aa774c04790cc0a2913f7dec, type: 3}
