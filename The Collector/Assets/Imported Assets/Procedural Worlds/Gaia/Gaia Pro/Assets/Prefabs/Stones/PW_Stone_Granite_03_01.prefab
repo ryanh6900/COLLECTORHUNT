@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3495475732942282435}
   - component: {fileID: 4103327086483064839}
   - component: {fileID: 8963229740524815281}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_Granite_03_01
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 5785772828682293541}
   - component: {fileID: 7739530864990711604}
   - component: {fileID: 1914948472588667677}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_Granite_03_02_LOD2
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 7076196826291315328}
   - component: {fileID: 5294044925094021485}
   - component: {fileID: 8376036631712582335}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_Granite_03_02_LOD0
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 1999193834275641833}
   - component: {fileID: 8276547445518658779}
   - component: {fileID: 3158889842368885857}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_Granite_03_02_LOD1
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}

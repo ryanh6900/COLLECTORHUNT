@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_defaultSpeed: 8
   m_path:
-  - m_location: {x: 320.4216, y: 17.63639, z: -63.88243}
-    m_rotationEuler: {x: 6.400003, y: 14.771013, z: 0.00000032217295}
+  - m_location: {x: -414.40952, y: 498.25, z: 340.21136}
+    m_rotationEuler: {x: 55.137756, y: 134.39911, z: 345.2888}
     m_dofDistance: {x: 0, y: 0, z: 0}
-  - m_location: {x: 322.1259, y: 17.253708, z: -56.057476}
-    m_rotationEuler: {x: 351.8, y: 6.920997, z: 0.00000021564814}
+  - m_location: {x: -366.96402, y: 409.85315, z: 301.49728}
+    m_rotationEuler: {x: 53.387745, y: 126.099106, z: 0}
     m_dofDistance: {x: 0, y: 0, z: 0}
-  - m_location: {x: 322.55493, y: 19.1333, z: -39.7987}
-    m_rotationEuler: {x: 5.650002, y: 13.870999, z: -0.00000016086405}
+  - m_location: {x: -288.17, y: 323.0367, z: 256.11682}
+    m_rotationEuler: {x: 38.037746, y: 118.04907, z: 0.0000021680248}
+    m_dofDistance: {x: 0, y: 0, z: 0}
+  - m_location: {x: -199.6514, y: 258.61673, z: 209.05527}
+    m_rotationEuler: {x: 31.337755, y: 119.099106, z: -0.0000009995987}
+    m_dofDistance: {x: 0, y: 0, z: 0}
+  - m_location: {x: -114.60739, y: 199.80914, z: 159.75262}
+    m_rotationEuler: {x: 30.437748, y: 120.249084, z: 0}
+    m_dofDistance: {x: 0, y: 0, z: 0}
+  - m_location: {x: -83.612305, y: 178.76227, z: 141.87411}
+    m_rotationEuler: {x: 30.487751, y: 119.69908, z: 0.0000019815166}
     m_dofDistance: {x: 0, y: 0, z: 0}

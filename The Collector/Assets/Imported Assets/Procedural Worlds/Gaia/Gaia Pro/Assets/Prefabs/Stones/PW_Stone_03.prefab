@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1301837845436660226}
   - component: {fileID: 2430300445802372021}
   - component: {fileID: 2268362375817485217}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_03_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 6669541888910705145}
   - component: {fileID: 4026586653501209652}
   - component: {fileID: 6358687407175948522}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_03_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 4252062989728277290}
   - component: {fileID: 1928919598246406340}
   - component: {fileID: 5165380295521962924}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_03_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 2543593577103079036}
   - component: {fileID: 1272761224475252420}
   - component: {fileID: 2142985740589229209}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_03_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 6120756006062959283}
   - component: {fileID: 6666125414344342647}
   - component: {fileID: 691260991272821921}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_03
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}

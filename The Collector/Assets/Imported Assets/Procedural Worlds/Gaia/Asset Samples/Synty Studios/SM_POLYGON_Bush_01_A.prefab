@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23210987760322766}
   - component: {fileID: 135810827436921386}
   - component: {fileID: 6551704890883194747}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: SM_POLYGON_Bush_01_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -82,7 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &135810827436921386
 SphereCollider:
   m_ObjectHideFlags: 0

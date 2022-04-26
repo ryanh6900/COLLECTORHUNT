@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5659638413675442443}
   - component: {fileID: 2417026034671716869}
   - component: {fileID: 6153829815908162062}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Fern_Realistic_01_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7914455095145502366}
   - component: {fileID: 4271064046662063500}
   - component: {fileID: 3064963757870944207}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Fern_Realistic_01_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592247532482829374}
   - component: {fileID: 21263903601691386}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Fern_Realistic_01
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 4838868976344000257}
   - component: {fileID: 8165873704142622165}
   - component: {fileID: 8464833053202728080}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Fern_Realistic_01_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,59 +316,73 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 592247532482829374}
     m_Modifications:
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9075868729196363389, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 9075868729196363389, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_Name
       value: PW_Plant_Fern_Realistic_01_LOD3
       objectReference: {fileID: 0}
-    - target: {fileID: 9075868729196363389, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 9075868729196363389, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 9075868729196363389, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+    - target: {fileID: 9075868729196363389, guid: c603b3d862638c646862371e4bb1ecfa,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 82
       objectReference: {fileID: 0}
@@ -376,11 +390,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
 --- !u!4 &9208477424094717466 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5363465304912377135, guid: c603b3d862638c646862371e4bb1ecfa,
+    type: 3}
   m_PrefabInstance: {fileID: 3865722537387332405}
   m_PrefabAsset: {fileID: 0}
 --- !u!23 &3869094102544027369 stripped
 MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5636907572895196, guid: c603b3d862638c646862371e4bb1ecfa, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5636907572895196, guid: c603b3d862638c646862371e4bb1ecfa,
+    type: 3}
   m_PrefabInstance: {fileID: 3865722537387332405}
   m_PrefabAsset: {fileID: 0}

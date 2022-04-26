@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2341528}
   - component: {fileID: 6591490}
   - component: {fileID: 20546276}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: fi_vil_GaiaFenseFull
   m_TagString: PW - Prop
   m_Icon: {fileID: 0}
@@ -57,7 +57,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 2
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -82,7 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6591490
 BoxCollider:
   m_ObjectHideFlags: 0

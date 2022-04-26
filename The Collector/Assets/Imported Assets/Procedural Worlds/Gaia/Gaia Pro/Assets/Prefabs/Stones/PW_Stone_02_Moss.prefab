@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8013540649224597439}
   - component: {fileID: 4506767049936609328}
   - component: {fileID: 5648600980859063186}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_02_01_LOD2
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 1384685249166465727}
   - component: {fileID: 7594682135716055810}
   - component: {fileID: 2176572319494576169}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_02_01_LOD0
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5027488300504619185}
   - component: {fileID: 6210854488225765669}
   - component: {fileID: 4937829798811068271}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_02_01_LOD1
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 6036823844398543280}
   - component: {fileID: 6608053729926162292}
   - component: {fileID: 4582056468248481123}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_02_Moss
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 1675226530312460887}
   - component: {fileID: 3197782460026585446}
   - component: {fileID: 1796731456638952144}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: PW_Stone_02_01_LOD3
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}

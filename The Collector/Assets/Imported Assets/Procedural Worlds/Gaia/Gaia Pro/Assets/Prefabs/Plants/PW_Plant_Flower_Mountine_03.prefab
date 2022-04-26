@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5892213451350312421}
   - component: {fileID: 2211143000252377379}
   - component: {fileID: 3195997185406047352}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Flower_Mountine_03_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 7802480526018069440}
   - component: {fileID: 1235353604899772659}
   - component: {fileID: 2996846990922861817}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Flower_Mountine_03_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 3392610387762631034}
   - component: {fileID: 5720757468680864170}
   - component: {fileID: 1068591052108718472}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Flower_Mountine_03_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6876838854896568896}
   - component: {fileID: 6277153761315839108}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Flower_Mountine_03
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}

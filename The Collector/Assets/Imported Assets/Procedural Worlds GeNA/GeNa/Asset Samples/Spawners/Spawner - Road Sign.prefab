@@ -83,10 +83,18 @@ MonoBehaviour:
     m_visualizationActive: 0
     m_maxVisualizationDimensions: 32
     m_maxSubSpawnerDepth: 5
+    m_showQuickStart: 1
+    m_showOverview: 1
+    m_showSpawnCriteria: 1
+    m_showPlacementCriteria: 1
+    m_showPrototypes: 0
+    m_showAdvancedSettings: 0
     m_showCritMinSpawnHeight: 0
     m_showCritMaxSpawnHeight: 0
     m_advanced:
       m_performUndoAtRuntime: 0
+      m_showMouseOverHelp: 1
+      m_showDetailedHelp: 1
       m_addColliderToSpawnedPrefabs: 0
       m_spawnCheckOffset: 2000
       m_boundsOffset: 1.5
@@ -154,7 +162,6 @@ MonoBehaviour:
     m_maxSlope: 10
     m_slopeRange: 90
     m_checkHeightType: 2
-    m_seaLevel: 0
     m_minSpawnHeight: 25
     m_maxSpawnHeight: 5000
     m_minHeight: -20
@@ -171,46 +178,14 @@ MonoBehaviour:
     m_checkMask: 0
     m_checkMaskType: 0
     m_maskFractal:
-      m_enabled: 0
-      m_noiseFalloff:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 1
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 0
-          inSlope: 0
-          outSlope: 0
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_noiseType: 0
-      m_strength: 1
       m_seed: 0
       m_octaves: 8
       m_persistence: 0.65
       m_frequency: 0.05
       m_lacunarity: 1.5
-      m_amplitude: 1
-      m_offset: {x: 0, y: 0}
-      m_warp: 0
-      m_warp0: 0
-      m_damp: 0
-      m_damp0: 0
-      m_dampScale: 0
-      m_ridgedOffset: 0
+      m_XOffset: 0
+      m_ZOffset: 0
+      m_YOffset: 0
     m_midMaskFractal: 0.5
     m_maskFractalRange: 0.5
     m_maskImagePaletteID: -2147483648
@@ -234,7 +209,6 @@ MonoBehaviour:
     m_overrideBoundsBorder: 0
     m_overrideRayExtents: 0
     m_overrideCheckHeight: 0
-    m_overrideSeaLevel: 0
     m_overrideMinMaxHeight: 0
     m_overrideMinMaxSpawnHeight: 0
     m_overrideHeightVariance: 0
@@ -292,6 +266,7 @@ MonoBehaviour:
     m_hasColliders: 0
     m_hasMeshes: 0
     m_hasRigidBody: 0
+    m_instancesSpawned: 0
     m_displayedInEditor: 0
     m_showAdvancedOptions: 0
     m_resourceIDs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
@@ -347,7 +322,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -364,46 +338,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -427,7 +369,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -497,7 +438,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0, y: 0, z: 0}
       m_baseRotation: {x: 0, y: 0, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -578,7 +518,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -595,46 +534,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -658,7 +565,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -724,7 +630,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -746,7 +651,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 482793476238250872, guid: c60e89b3984f4814a9f0f1dd9b3d836b, type: 3}
+      m_prefab: {fileID: 482793476238250872, guid: c60e89b3984f4814a9f0f1dd9b3d836b,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -805,7 +711,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -822,46 +727,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -885,7 +758,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -951,7 +823,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -973,7 +844,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 1343862910752130344, guid: 41f5c3017ee0dab498a640077b23638a, type: 3}
+      m_prefab: {fileID: 1343862910752130344, guid: 41f5c3017ee0dab498a640077b23638a,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -1032,7 +904,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -1049,46 +920,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -1112,7 +951,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -1178,7 +1016,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -1200,7 +1037,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 4971719605868266391, guid: 719916db0bf4c4e43aabd050bb1c84cb, type: 3}
+      m_prefab: {fileID: 4971719605868266391, guid: 719916db0bf4c4e43aabd050bb1c84cb,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -1259,7 +1097,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -1276,46 +1113,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -1339,7 +1144,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -1405,7 +1209,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -1427,7 +1230,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 1199855622974735960, guid: b1662467895c71449b8f932d141cd8fb, type: 3}
+      m_prefab: {fileID: 1199855622974735960, guid: b1662467895c71449b8f932d141cd8fb,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -1486,7 +1290,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -1503,46 +1306,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -1566,7 +1337,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -1632,7 +1402,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -1654,7 +1423,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 8173545665621169923, guid: 3038dc28383ba07448f67df565541928, type: 3}
+      m_prefab: {fileID: 8173545665621169923, guid: 3038dc28383ba07448f67df565541928,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -1713,7 +1483,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -1730,46 +1499,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -1793,7 +1530,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -1859,7 +1595,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -1881,7 +1616,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 6827579018918263041, guid: 7a80bb1b608bc134ea7389a0ab159aa3, type: 3}
+      m_prefab: {fileID: 6827579018918263041, guid: 7a80bb1b608bc134ea7389a0ab159aa3,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -1940,7 +1676,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -1957,46 +1692,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -2020,7 +1723,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -2086,7 +1788,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -2108,7 +1809,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 7481215023251334704, guid: 6a78c4b151341924882f633d2368f943, type: 3}
+      m_prefab: {fileID: 7481215023251334704, guid: 6a78c4b151341924882f633d2368f943,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -2167,7 +1869,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -2184,46 +1885,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -2247,7 +1916,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -2313,7 +1981,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -2335,7 +2002,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 1111289273005946065, guid: 1aeb1f3dd0d4da845a1f4d73e2adbb02, type: 3}
+      m_prefab: {fileID: 1111289273005946065, guid: 1aeb1f3dd0d4da845a1f4d73e2adbb02,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -2394,7 +2062,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -2411,46 +2078,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -2474,7 +2109,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -2540,7 +2174,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -2562,7 +2195,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 4156184665455711761, guid: e9b5a3fd36310cd4989a7748faea4043, type: 3}
+      m_prefab: {fileID: 4156184665455711761, guid: e9b5a3fd36310cd4989a7748faea4043,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -2621,7 +2255,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -2638,46 +2271,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -2701,7 +2302,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -2767,7 +2367,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -2789,7 +2388,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 5774239710036299856, guid: 325b2fbaddeb4ea4290037d65a737a24, type: 3}
+      m_prefab: {fileID: 5774239710036299856, guid: 325b2fbaddeb4ea4290037d65a737a24,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -2848,7 +2448,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -2865,46 +2464,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -2928,7 +2495,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -2994,7 +2560,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -3016,7 +2581,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 5747416315274771898, guid: 165bc81ced30da741b385b98eeb7b9bc, type: 3}
+      m_prefab: {fileID: 5747416315274771898, guid: 165bc81ced30da741b385b98eeb7b9bc,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -3075,7 +2641,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -3092,46 +2657,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -3155,7 +2688,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -3221,7 +2753,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -3243,7 +2774,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 6318485994425028646, guid: 199d97b41be727a4eb46310b1e77cffb, type: 3}
+      m_prefab: {fileID: 6318485994425028646, guid: 199d97b41be727a4eb46310b1e77cffb,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -3302,7 +2834,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -3319,46 +2850,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -3382,7 +2881,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -3448,7 +2946,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -3470,7 +2967,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 8764025371913204723, guid: 5ab1458cb437821428d2db28b88a3b3c, type: 3}
+      m_prefab: {fileID: 8764025371913204723, guid: 5ab1458cb437821428d2db28b88a3b3c,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -3529,7 +3027,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -3546,46 +3043,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -3609,7 +3074,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -3675,7 +3139,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -3697,7 +3160,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 7632074221199254616, guid: 19093cda0cb33d14a9057a898bc0d3f8, type: 3}
+      m_prefab: {fileID: 7632074221199254616, guid: 19093cda0cb33d14a9057a898bc0d3f8,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -3756,7 +3220,6 @@ MonoBehaviour:
         m_maxSlope: 10
         m_slopeRange: 90
         m_checkHeightType: 2
-        m_seaLevel: 0
         m_minSpawnHeight: -1
         m_maxSpawnHeight: 5000
         m_minHeight: -20
@@ -3773,46 +3236,14 @@ MonoBehaviour:
         m_checkMask: 0
         m_checkMaskType: 0
         m_maskFractal:
-          m_enabled: 0
-          m_noiseFalloff:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            - serializedVersion: 3
-              time: 1
-              value: 0
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0
-              outWeight: 0
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
-          m_noiseType: 0
-          m_strength: 1
           m_seed: 0
           m_octaves: 8
           m_persistence: 0.65
           m_frequency: 0.05
           m_lacunarity: 1.5
-          m_amplitude: 1
-          m_offset: {x: 0, y: 0}
-          m_warp: 0
-          m_warp0: 0
-          m_damp: 0
-          m_damp0: 0
-          m_dampScale: 0
-          m_ridgedOffset: 0
+          m_XOffset: 0
+          m_ZOffset: 0
+          m_YOffset: 0
         m_midMaskFractal: 0.5
         m_maskFractalRange: 0.5
         m_maskImagePaletteID: -2147483648
@@ -3836,7 +3267,6 @@ MonoBehaviour:
         m_overrideBoundsBorder: 0
         m_overrideRayExtents: 0
         m_overrideCheckHeight: 0
-        m_overrideSeaLevel: 0
         m_overrideMinMaxHeight: 0
         m_overrideMinMaxSpawnHeight: 0
         m_overrideHeightVariance: 0
@@ -3902,7 +3332,6 @@ MonoBehaviour:
         m_flagForceOptimise: 0
         m_flagIsOutdoorObject: 1
         m_useColliderBounds: 0
-        m_applyToChildren: 0
       m_basePosition: {x: 0.0004626508, y: 0, z: 0.0020980842}
       m_baseRotation: {x: -0, y: 270, z: 0}
       m_baseScale: {x: 1, y: 1, z: 1}
@@ -3924,7 +3353,8 @@ MonoBehaviour:
         m_size: 0
         m_strength: []
         m_brush: {fileID: 0}
-      m_prefab: {fileID: 8499263556382413424, guid: c69b1bfeb9aa9f54fbbf6537379a6f32, type: 3}
+      m_prefab: {fileID: 8499263556382413424, guid: c69b1bfeb9aa9f54fbbf6537379a6f32,
+        type: 3}
       m_template: {fileID: 0}
       m_nextSuccess: 0
       m_nextPosition: {x: 0, y: 0, z: 0}
@@ -3956,6 +3386,7 @@ MonoBehaviour:
   m_spawnRangeShape: 0
   m_hasSeaLevelBeenSet: 0
   m_getSeaLevel: 1
+  m_extraSeaLevelHeight: 0
   m_useLargeRanges: 0
   m_randomSeed: 720123
   m_physicsType: 0
@@ -3977,6 +3408,5 @@ MonoBehaviour:
     m_iterations: 1000
     m_stepSize: 0.05
     m_spawnOffsetY: 0.3
-    m_minHeightY: -10
   m_prototypeIDPool: 
   m_lastSpawnCalls: []

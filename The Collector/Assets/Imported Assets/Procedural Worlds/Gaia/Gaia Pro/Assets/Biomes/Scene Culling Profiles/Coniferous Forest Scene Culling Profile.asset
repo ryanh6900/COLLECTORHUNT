@@ -25,9 +25,9 @@ MonoBehaviour:
   - 0
   - 0
   - 0
-  - 205
-  - 341
-  - 1024
+  - 137
+  - 228
+  - 683
   - 0
   - 0
   - 0
@@ -51,16 +51,16 @@ MonoBehaviour:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - FPSDontShow
+  - 
   - Water
   - UI
-  - Ground
-  - Player
+  - 
+  - 
   - PW_VFX
-  - Interactable
   - PW_Object_Small
   - PW_Object_Medium
   - PW_Object_Large
+  - 
   - 
   - 
   - 

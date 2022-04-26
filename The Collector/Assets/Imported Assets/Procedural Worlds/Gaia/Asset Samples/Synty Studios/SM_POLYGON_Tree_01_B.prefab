@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23980127117469390}
   - component: {fileID: 136001997061051774}
   - component: {fileID: 5247996300011241691}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: SM_POLYGON_Tree_01_B
   m_TagString: Synty Tree
   m_Icon: {fileID: 0}
@@ -57,7 +57,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -82,7 +81,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!136 &136001997061051774
 CapsuleCollider:
   m_ObjectHideFlags: 0

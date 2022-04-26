@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3364922}
   - component: {fileID: 2385650}
   - component: {fileID: 7996720054761824968}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: fi_vil_stair01_long_B 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -81,7 +80,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!64 &7996720054761824968
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -92,7 +90,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d09c079c448029e4783c4048b5dd6c0a, type: 3}
@@ -109,7 +107,7 @@ GameObject:
   - component: {fileID: 2354968}
   - component: {fileID: 20534030}
   - component: {fileID: 3308306330717132119}
-  m_Layer: 12
+  m_Layer: 11
   m_Name: fi_vil_GaiaHouse01A
   m_TagString: PW - Building
   m_Icon: {fileID: 0}
@@ -154,7 +152,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 2
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -179,7 +176,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!205 &20534030
 LODGroup:
   m_ObjectHideFlags: 0
@@ -210,7 +206,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c0440a2db96e6cc49970e087d966627d, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1441795949366252704}
   - component: {fileID: 8501696420995711886}
   - component: {fileID: 5302797430289770005}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Mushroom_01_08_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,7 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2699012288096760192
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +90,7 @@ GameObject:
   - component: {fileID: 7170576052130297436}
   - component: {fileID: 990308227878685219}
   - component: {fileID: 5218322205577327967}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Mushroom_01_08_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +134,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -161,7 +158,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &3904196282817558939
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 32972213030964104}
   - component: {fileID: 578354781226097996}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Mushroom_08
   m_TagString: PW - Nature
   m_Icon: {fileID: 0}
@@ -234,7 +230,7 @@ GameObject:
   - component: {fileID: 6208887506993417628}
   - component: {fileID: 175976697661313181}
   - component: {fileID: 7879525869374659554}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: PW_Plant_Mushroom_01_08_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +274,6 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -303,4 +298,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
